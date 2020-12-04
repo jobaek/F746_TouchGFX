@@ -1,0 +1,2536 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.2.178/W32 for ARM                  17/Jul/2019  14:06:50
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Exe\F746DISCO_TouchGFX_Start.out
+#    Map file     =  
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\List\F746DISCO_TouchGFX_Start.map
+#    Command line =  
+#        -f C:\Users\BAEKJO~1\AppData\Local\Temp\EW7003.tmp
+#        (C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\ApplicationFontProvider.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\BitmapDatabase.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\blue_buttons_round_edge_small.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\blue_buttons_round_edge_small_pressed.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\BoardConfiguration.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\bsp_driver_sd.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\cmsis_os.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\croutine.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\diskio.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\event_groups.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\fatfs.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\fatfs_platform.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\ff.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\ff_gen_drv.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Font_verdana_10_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Font_verdana_20_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Font_verdana_40_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\FontGetters.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\freertos.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\FrontendApplication.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\FrontendApplicationBase.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\ft5336.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\GPIO.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\heap_4.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\HW_Init.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Kerning_verdana_10_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Kerning_verdana_20_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Kerning_verdana_40_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\list.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\main.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Model.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\OSWrappers.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\port.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\portasm.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\queue.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Screen1Presenter.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Screen1View.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Screen1ViewBase.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Screen2Presenter.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Screen2View.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Screen2ViewBase.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\sd_diskio.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\startup_stm32f746xx.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32746g_discovery.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32746g_discovery_qspi.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32746g_discovery_ts.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\STM32F7DMA.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\STM32F7HAL.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\STM32F7Instrumentation.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\STM32F7TouchController.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_adc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_adc_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_cortex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_crc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_crc_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_dcmi.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_dcmi_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_dma.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_dma2d.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_dma_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_dsi.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_eth.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_exti.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_flash.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_flash_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_gpio.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_hcd.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_i2c.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_i2c_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_ltdc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_ltdc_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_msp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_pwr.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_pwr_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_qspi.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_rcc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_rcc_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_rtc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_rtc_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_sai.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_sai_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_sd.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_sdram.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_spdifrx.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_spi.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_spi_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_tim.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_tim_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_timebase_tim.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_uart.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_hal_uart_ex.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_it.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_ll_fmc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_ll_sdmmc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stm32f7xx_ll_usb.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\stream_buffer.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\syscall.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\system_stm32f7xx.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Table_verdana_10_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Table_verdana_20_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Table_verdana_40_4bpp.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\tasks.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\Texts.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\timers.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\Middlewares\ST\TouchGFX\touchgfx\lib\core\cortex_m7\IAR8.x\touchgfx_core_release.a
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\TypedTextDatabase.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usb_host.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usbh_cdc.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usbh_conf.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usbh_core.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usbh_ctlreq.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usbh_ioreq.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usbh_pipes.o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj\usbh_platform.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Exe\F746DISCO_TouchGFX_Start.out
+#        --map
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\List\F746DISCO_TouchGFX_Start.map
+#        --config
+#        C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM/stm32f746xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__CPP_Exceptions              = Disabled
+__CPP_Language                = C++14
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+__dlib_version                = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2004'ffff] {
+          rw, block CSTACK, block HEAP };
+"P3":  place in [from 0x9000'0000 to 0x9010'0000] { section ExtFlashSection };
+initialize by copy { rw };
+
+  Section                Kind         Address     Size  Object
+  -------                ----         -------     ----  ------
+"A0":                                            0x1c8
+  .intvec                ro code   0x800'0000    0x1c8  startup_stm32f746xx.o [1]
+                                 - 0x800'01c8    0x1c8
+
+"P1":                                          0x120b0
+  .text                  ro code   0x800'01c8   0x14e0  dlmalloc.o [2]
+  .text                  ro code   0x800'16a8      0x6  abort.o [2]
+  .text                  ro code   0x800'16ae     0x7a  lz77_init_single.o [5]
+  .text                  ro code   0x800'1728     0x2c  xgetmemchunk.o [2]
+  .text                  ro code   0x800'1754     0x14  exit.o [6]
+  .text                  ro code   0x800'1768    0xa40  LCD16bpp.o [7]
+  .text                  ro code   0x800'21a8    0x350  Bitmap.o [7]
+  .text                  ro code   0x800'24f8     0xa6  ABImemcpy.o [5]
+  .text                  ro code   0x800'259e     0x4e  AbstractButton.o [7]
+  .text                  ro code   0x800'25ec     0x90  DisplayTransformation.o [7]
+  .text                  ro code   0x800'267c     0x10  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'268c    0xa14  main.o [1]
+  .text                  ro code   0x800'30a0     0x16  stm32f7xx_hal.o [1]
+  .text                  ro code   0x800'30b6     0x3a  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'30f0    0x2a4  stm32f7xx_hal_adc.o [1]
+  .text                  ro code   0x800'3394     0x78  stm32f7xx_hal_crc.o [1]
+  .text                  ro code   0x800'340c     0x90  stm32f7xx_hal_dcmi.o [1]
+  .text                  ro code   0x800'349c    0x3d2  stm32f7xx_hal_eth.o [1]
+  .text                  ro code   0x800'386e     0x3a  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'38a8    0x580  stm32f7xx_hal_i2c.o [1]
+  .text                  ro code   0x800'3e28     0x7e  stm32f7xx_hal_i2c_ex.o [1]
+  .text                  ro code   0x800'3ea6     0x3a  zero_init3.o [5]
+  .text                  ro code   0x800'3ee0     0x70  stm32f7xx_hal_spdifrx.o [1]
+  .text                  ro code   0x800'3f50     0xb4  stm32f7xx_hal_spi.o [1]
+  .text                  ro code   0x800'4004    0x732  stm32f7xx_hal_tim.o [1]
+  .text                  ro code   0x800'4736     0x1e  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'4754     0xe4  stm32f7xx_hal_tim_ex.o [1]
+  .text                  ro code   0x800'4838    0x90c  stm32f7xx_hal_msp.o [1]
+  .text                  ro code   0x800'5144      0x6  ABImemclr4.o [5]
+  .text                  ro code   0x800'514a     0x1e  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'5168     0xa4  BoardConfiguration.o [1]
+  .text                  ro code   0x800'520c    0x174  cmsis_os.o [1]
+  .text                  ro code   0x800'5380    0x43e  stm32f7xx_hal_uart.o [1]
+  .text                  ro code   0x800'57be     0x1e  Screen1ViewBase.o [1]
+  .text                  ro code   0x800'57dc     0x10  stm32f7xx_hal_pwr.o [1]
+  .text                  ro code   0x800'57ec    0x4f4  stm32f7xx_hal_rcc.o [1]
+  .text                  ro code   0x800'5ce0     0x74  stm32f7xx_hal_pwr_ex.o [1]
+  .text                  ro code   0x800'5d54    0x538  stm32f7xx_hal_rcc_ex.o [1]
+  .text                  ro code   0x800'628c    0x5de  stm32f7xx_hal_qspi.o [1]
+  .text                  ro code   0x800'686a     0x1e  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'6888    0x348  stm32746g_discovery_qspi.o [1]
+  .text                  ro code   0x800'6bd0    0x128  stm32f7xx_hal_cortex.o [1]
+  .text                  ro code   0x800'6cf8    0x40a  stm32f7xx_hal_rtc.o [1]
+  .text                  ro code   0x800'7102     0x1a  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'711c     0x68  stm32f7xx_hal_rtc_ex.o [1]
+  .text                  ro code   0x800'7184    0x21c  stm32f7xx_hal_sai.o [1]
+  .text                  ro code   0x800'73a0    0x30c  stm32f7xx_hal_gpio.o [1]
+  .text                  ro code   0x800'76ac     0x18  fatfs.o [1]
+  .text                  ro code   0x800'76c4     0x64  usb_host.o [1]
+  .text                  ro code   0x800'7728     0x10  stm32f7xx_hal.o [1]
+  .text                  ro code   0x800'7738     0x78  stm32f7xx_hal_timebase_tim.o [1]
+  .text                  ro code   0x800'77b0     0x4c  stm32f7xx_hal_crc_ex.o [1]
+  .text                  ro code   0x800'77fc      0xc  stm32f7xx_hal.o [1]
+  .text                  ro code   0x800'7808     0x28  stm32f7xx_hal.o [1]
+  .text                  ro code   0x800'7830      0x2  stm32f7xx_hal_tim.o [1]
+  .text                  ro code   0x800'7832      0x2  stm32f7xx_hal_tim.o [1]
+  .text                  ro code   0x800'7834      0x2  stm32f7xx_hal_tim_ex.o [1]
+  .text                  ro code   0x800'7836      0x2  stm32f7xx_hal_tim_ex.o [1]
+  .text                  ro code   0x800'7838      0x2  stm32f7xx_hal_tim.o [1]
+  .text                  ro code   0x800'783a      0x2  stm32f7xx_hal_tim_ex.o [1]
+  .text                  ro code   0x800'783c      0x2  stm32f7xx_hal_tim.o [1]
+  .text                  ro code   0x800'783e     0x1a  Screen1ViewBase.o [1]
+  .text                  ro code   0x800'7858     0x3a  ABImemset48.o [5]
+  .text                  ro code   0x800'7892     0x1a  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'78ac    0x30a  STM32F7DMA.o [1]
+  .text                  ro code   0x800'7bb6     0x12  AbstractButton.o [7]
+  .text                  ro code   0x800'7bc8    0x418  HW_Init.o [1]
+  .text                  ro code   0x800'7fe0      0x8  GPIO.o [1]
+  .text                  ro code   0x800'7fe8     0x78  BoardConfiguration.o [1]
+  .text                  ro code   0x800'8060    0x176  STM32F7Instrumentation.o [1]
+  .text                  ro code   0x800'81d6     0x12  AbstractButton.o [7]
+  .text                  ro code   0x800'81e8    0x8a8  tasks.o [1]
+  .text                  ro code   0x800'8a90    0x710  queue.o [1]
+  .text                  ro code   0x800'91a0    0x106  I64DivMod_small.o [5]
+  .text                  ro code   0x800'92a6      0xa  BoardConfiguration.o [1]
+  .text                  ro code   0x800'92b0    0x11a  stm32f7xx_hal_dma.o [1]
+  .text                  ro code   0x800'93ca      0xa  BoardConfiguration.o [1]
+  .text                  ro code   0x800'93d4     0x44  ff_gen_drv.o [1]
+  .text                  ro code   0x800'9418    0x4f4  usbh_core.o [1]
+  .text                  ro code   0x800'990c    0x1f8  DMA.o [7]
+  .text                  ro code   0x800'9b04     0x28  cxxabi.o [3]
+  .text                  ro code   0x800'9b2c    0x312  stm32f7xx_hal_dma2d.o [1]
+  .text                  ro code   0x800'9e3e      0x6  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'9e44    0x3fc  stm32f7xx_hal_ltdc.o [1]
+  .text                  ro code   0x800'a240     0x9a  stm32f7xx_hal_sdram.o [1]
+  .text                  ro code   0x800'a2da      0x6  STM32F7DMA.o [1]
+  .text                  ro code   0x800'a2e0     0x2c  BoardConfiguration.o [1]
+  .text                  ro code   0x800'a30c    0x5c0  HAL.o [7]
+  .text                  ro code   0x800'a8cc      0xc  BitmapDatabase.o [1]
+  .text                  ro code   0x800'a8d8     0x54  Texts.o [1]
+  .text                  ro code   0x800'a92c      0xc  FontManager.o [7]
+  .text                  ro code   0x800'a938     0x58  BoardConfiguration.o [1]
+  .text                  ro code   0x800'a990    0x610  Application.o [7]
+  .text                  ro code   0x800'afa0    0x1c0  heap_4.o [1]
+  .text                  ro code   0x800'b160     0x94  list.o [1]
+  .text                  ro code   0x800'b1f4    0x1e4  port.o [1]
+  .text                  ro code   0x800'b3d8     0xf8  OSWrappers.o [1]
+  .text                  ro code   0x800'b4d0      0x2  I64DivZer.o [5]
+  .text                  ro code   0x800'b4d2      0x6  STM32F7DMA.o [1]
+  .text                  ro code   0x800'b4d8    0x1f8  usbh_conf.o [1]
+  .text                  ro code   0x800'b6d0     0x72  usbh_pipes.o [1]
+  .text                  ro code   0x800'b742      0x6  STM32F7DMA.o [1]
+  .text                  ro code   0x800'b748    0x45e  usbh_ctlreq.o [1]
+  .text                  ro code   0x800'bba6      0xc  memcpy.o [5]
+  .text                  ro code   0x800'bbb2      0x2  stm32f7xx_hal_dma2d.o [1]
+  .text                  ro code   0x800'bbb4      0x2  stm32f7xx_hal_dma2d.o [1]
+  .text                  ro code   0x800'bbb6      0x2  stm32f7xx_hal_ltdc.o [1]
+  .text                  ro code   0x800'bbb8    0x16c  STM32F7HAL.o [1]
+  .text                  ro code   0x800'bd24      0x2  stm32f7xx_hal_ltdc.o [1]
+  .text                  ro code   0x800'bd26      0x2  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'bd28    0x124  stm32f7xx_ll_fmc.o [1]
+  .text                  ro code   0x800'be4c     0x20  BoardConfiguration.o [1]
+  .text                  ro code   0x800'be6c    0x160  Gestures.o [7]
+  .text                  ro code   0x800'bfcc     0x24  HAL.o [7]
+  .text                  ro code   0x800'bff0     0xfc  TouchCalibration.o [7]
+  .text                  ro code   0x800'c0ec     0x30  TypedTextDatabase.o [1]
+  .text                  ro code   0x800'c11c      0xc  BoardConfiguration.o [1]
+  .text                  ro code   0x800'c128     0x14  BoardConfiguration.o [1]
+  .text                  ro code   0x800'c13c     0x14  BoardConfiguration.o [1]
+  .text                  ro code   0x800'c150     0x14  BoardConfiguration.o [1]
+  .text                  ro code   0x800'c164     0x18  FrontendApplication.o [1]
+  .text                  ro code   0x800'c17c      0xa  Model.o [1]
+  .text                  ro code   0x800'c186      0x2  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'c188    0x164  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'c2ec     0x70  stm32_crc_lock.o [7]
+  .text                  ro code   0x800'c35c    0x664  Screen.o [7]
+  .text                  ro code   0x800'c9c0     0x86  Container.o [7]
+  .text                  ro code   0x800'ca46     0x44  Application.o [7]
+  .text                  ro code   0x800'ca8a     0x50  Application.o [7]
+  .text                  ro code   0x800'cada     0x44  Screen.o [7]
+  .text                  ro code   0x800'cb1e     0x8c  Application.o [7]
+  .text                  ro code   0x800'cbaa     0x28  Application.o [7]
+  .text                  ro code   0x800'cbd2      0x2  FrontendApplicationBase.o [1]
+  CODE                   ro code   0x800'cbd4     0xb4  portasm.o [1]
+  .text                  ro code   0x800'cc88    0x79c  stm32f7xx_hal_hcd.o [1]
+  .text                  ro code   0x800'd424     0x14  usbh_platform.o [1]
+  .text                  ro code   0x800'd438     0x84  usbh_ioreq.o [1]
+  .text                  ro code   0x800'd4bc     0x10  BoardConfiguration.o [1]
+  .text                  ro code   0x800'd4cc     0xb8  FontGetters.o [1]
+  .text                  ro code   0x800'd584     0x1c  BoardConfiguration.o [1]
+  .text                  ro code   0x800'd5a0      0x8  AbstractPartition.o [7]
+  .text                  ro code   0x800'd5a8     0x20  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'd5c8     0xe0  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'd6a8     0x14  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'd6bc     0x10  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'd6cc     0xe4  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'd7b0     0xe8  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'd898     0x34  Screen.o [7]
+  .text                  ro code   0x800'd8cc     0x26  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'd8f2    0x1e2  Container.o [7]
+  .text                  ro code   0x800'dad4     0x3e  Screen.o [7]
+  .text                  ro code   0x800'db12     0x28  Screen.o [7]
+  .text                  ro code   0x800'db3a     0x28  Screen.o [7]
+  .text                  ro code   0x800'db62    0x174  Drawable.o [7]
+  .text                  ro code   0x800'dcd6      0x2  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'dcd8     0x20  Screen.o [7]
+  .text                  ro code   0x800'dcf8     0x1c  Screen.o [7]
+  .text                  ro code   0x800'dd14    0x64a  stm32f7xx_ll_usb.o [1]
+  .text                  ro code   0x800'e35e      0x2  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e360     0x8c  BoardConfiguration.o [1]
+  .text                  ro code   0x800'e3ec     0x54  InternalFlashFont.o [7]
+  .text                  ro code   0x800'e440      0xc  BoardConfiguration.o [1]
+  .text                  ro code   0x800'e44c     0x24  ABIassert.o [6]
+  .text                  ro code   0x800'e470     0x14  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e484      0x6  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e48a      0x2  Screen1Presenter.o [1]
+  .text                  ro code   0x800'e48c     0x1e  Screen1View.o [1]
+  .text                  ro code   0x800'e4aa      0x6  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e4b0     0x30  Screen1Presenter.o [1]
+  .text                  ro code   0x800'e4e0     0x9c  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e57c     0x9c  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e618     0x1e  Screen2View.o [1]
+  .text                  ro code   0x800'e636      0x2  Screen1View.o [1]
+  .text                  ro code   0x800'e638     0x30  Screen2Presenter.o [1]
+  .text                  ro code   0x800'e668     0x12  BoardConfiguration.o [1]
+  .text                  ro code   0x800'e67a     0x2c  ConstFont.o [7]
+  .text                  ro code   0x800'e6a6      0x2  Screen1ViewBase.o [1]
+  .text                  ro code   0x800'e6a8     0x18  BoardConfiguration.o [1]
+  .text                  ro code   0x800'e6c0     0x10  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e6d0     0xc8  Screen1ViewBase.o [1]
+  .text                  ro code   0x800'e798     0xe0  SnapshotWidget.o [7]
+  .text                  ro code   0x800'e878     0x14  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e88c     0x14  FrontendApplicationBase.o [1]
+  .text                  ro code   0x800'e8a0     0xc8  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'e968     0x14  BoardConfiguration.o [1]
+  .text                  ro code   0x800'e97c     0x24  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'e9a0     0x30  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'e9d0     0x14  Screen1ViewBase.o [1]
+  .text                  ro code   0x800'e9e4     0xb0  Color.o [7]
+  .text                  ro code   0x800'ea94     0x1a  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'eaae      0x2  Screen1ViewBase.o [1]
+  .text                  ro code   0x800'eab0     0xe8  Button.o [7]
+  .text                  ro code   0x800'eb98      0x6  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'eb9e      0x2  Screen2Presenter.o [1]
+  .text                  ro code   0x800'eba0     0x14  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'ebb4     0x30  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'ebe4      0xc  Screen2ViewBase.o [1]
+  .text                  ro code   0x800'ebf0    0x90c  stm32f7xx_hal_sd.o [1]
+  .text                  ro code   0x800'f4fc    0x538  stm32f7xx_ll_sdmmc.o [1]
+  .text                  ro code   0x800'fa34      0x2  stm32f7xx_hal_sd.o [1]
+  .text                  ro code   0x800'fa36      0x2  Screen2Presenter.o [1]
+  .text                  ro code   0x800'fa38     0x94  bsp_driver_sd.o [1]
+  .text                  ro code   0x800'facc    0x218  sd_diskio.o [1]
+  .text                  ro code   0x800'fce4     0x1c  fatfs_platform.o [1]
+  .text                  ro code   0x800'fd00    0x36c  usbh_cdc.o [1]
+  .text                  ro code   0x801'006c      0x4  heaptramp0.o [2]
+  .text                  ro code   0x801'0070      0x2  usbh_cdc.o [1]
+  .text                  ro code   0x801'0072      0x2  usbh_cdc.o [1]
+  .text                  ro code   0x801'0074    0x2a0  ft5336.o [1]
+  .text                  ro code   0x801'0314    0x208  stm32746g_discovery.o [1]
+  .text                  ro code   0x801'051c    0x208  stm32746g_discovery_ts.o [1]
+  .rodata                const     0x801'0724     0xb4  main.o [1]
+  .rodata                const     0x801'07d8     0xa8  STM32F7HAL.o [1]
+  .rodata                const     0x801'0880     0xa4  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'0924     0xa4  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'09c8     0xa4  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'0a6c     0xa4  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'0b10     0xa4  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'0bb4     0xa4  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'0c58     0xa0  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'0cf8     0x72  EasingEquations.o [7]
+  .text                  ro code   0x801'0d6a      0x2  Screen2Presenter.o [1]
+  .text                  ro code   0x801'0d6c     0xa0  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'0e0c     0x9c  STM32F7HAL.o [1]
+  .rodata                const     0x801'0ea8     0x90  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'0f38     0x90  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'0fc8     0x90  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1058     0x90  Container.o [7]
+  .rodata                const     0x801'10e8     0x80  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1168     0x80  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'11e8     0x80  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1268     0x7c  STM32F7HAL.o [1]
+  .rodata                const     0x801'12e4     0x74  SnapshotWidget.o [7]
+  .rodata                const     0x801'1358     0x74  Button.o [7]
+  .rodata                const     0x801'13cc     0x6c  Box.o [7]
+  .text                  ro code   0x801'1438     0x60  system_stm32f7xx.o [1]
+  .text                  ro code   0x801'1498     0x60  Box.o [7]
+  .text                  ro code   0x801'14f8     0x58  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'1550     0x58  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'15a8     0x58  STM32F7HAL.o [1]
+  .rodata                const     0x801'1600     0x4c  STM32F7DMA.o [1]
+  .rodata                const     0x801'164c     0x4c  InternalFlashFont.o [7]
+  .text                  ro code   0x801'1698     0x46  STM32F7TouchController.o [1]
+  .text                  ro code   0x801'16de      0x2  Screen2Presenter.o [1]
+  .rodata                const     0x801'16e0     0x3c  FrontendApplication.o [1]
+  .rodata                const     0x801'171c     0x3c  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1758     0x3c  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1794     0x3c  Application.o [7]
+  .text                  ro code   0x801'17d0     0x38  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'1808     0x38  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1840     0x34  BoardConfiguration.o [1]
+  .rodata                const     0x801'1874     0x34  BoardConfiguration.o [1]
+  .rodata                const     0x801'18a8     0x34  BoardConfiguration.o [1]
+  .rodata                const     0x801'18dc     0x34  Screen1View.o [1]
+  .rodata                const     0x801'1910     0x34  Screen1ViewBase.o [1]
+  .rodata                const     0x801'1944     0x34  Screen1ViewBase.o [1]
+  .rodata                const     0x801'1978     0x34  Screen2View.o [1]
+  .rodata                const     0x801'19ac     0x34  Screen2ViewBase.o [1]
+  .rodata                const     0x801'19e0     0x34  Screen2ViewBase.o [1]
+  .rodata                const     0x801'1a14     0x34  LCD16bpp.o [7]
+  .rodata                const     0x801'1a48     0x34  Screen.o [7]
+  .text                  ro code   0x801'1a7c     0x34  stm32f7xx_it.o [1]
+  .rodata                const     0x801'1ab0     0x28  BitmapDatabase.o [1]
+  .rodata                const     0x801'1ad8     0x28  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1b00     0x28  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1b28     0x28  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1b50     0x28  Screen1Presenter.o [1]
+  .rodata                const     0x801'1b78     0x28  Screen2Presenter.o [1]
+  .rodata                const     0x801'1ba0     0x28  STM32F7Instrumentation.o [1]
+  .rodata                const     0x801'1bc8     0x28  Application.o [7]
+  .text                  ro code   0x801'1bf0     0x28  data_init.o [5]
+  .rodata                const     0x801'1c18     0x24  DMA.o [7]
+  .text                  ro code   0x801'1c3c     0x24  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'1c60     0x22  fpinit_M.o [4]
+  .iar.init_table        const     0x801'1c84     0x24  - Linker created -
+  .text                  ro code   0x801'1ca8      0x2  Screen2View.o [1]
+  .rodata                const     0x801'1cac     0x20  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1ccc     0x20  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1cec     0x20  STM32F7HAL.o [1]
+  .text                  ro code   0x801'1d0c     0x20  cmain_call_ctors.o [5]
+  .text                  ro code   0x801'1d2c     0x18  cppinit.o [2]
+  .text                  ro code   0x801'1d44     0x1e  cmain.o [5]
+  .text                  ro code   0x801'1d62      0x4  low_level_init.o [2]
+  .text                  ro code   0x801'1d66      0x4  exit.o [2]
+  .text                  ro code   0x801'1d6a      0x2  Screen2ViewBase.o [1]
+  .text                  ro code   0x801'1d6c      0xa  cexit.o [5]
+  .text                  ro code   0x801'1d76      0x2  Screen2ViewBase.o [1]
+  .text                  ro code   0x801'1d78     0x1c  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'1d94     0x1c  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1db0     0x18  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1dc8     0x18  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1de0     0x18  FrontendApplicationBase.o [1]
+  .rodata                const     0x801'1df8     0x18  Screen1ViewBase.o [1]
+  .rodata                const     0x801'1e10     0x18  Screen2Presenter.o [1]
+  .rodata                const     0x801'1e28     0x18  Screen2ViewBase.o [1]
+  .rodata                const     0x801'1e40     0x18  STM32F7TouchController.o [1]
+  .text                  ro code   0x801'1e58     0x18  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'1e70     0x18  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'1e88     0x18  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'1ea0     0x16  FrontendApplication.o [1]
+  .text                  ro code   0x801'1eb6     0x16  STM32F7HAL.o [1]
+  .rodata                const     0x801'1ecc     0x14  ApplicationFontProvider.o [1]
+  .rodata                const     0x801'1ee0     0x14  BoardConfiguration.o [1]
+  .rodata                const     0x801'1ef4     0x14  BoardConfiguration.o [1]
+  .rodata                const     0x801'1f08     0x14  sd_diskio.o [1]
+  .rodata                const     0x801'1f1c     0x14  Gestures.o [7]
+  .rodata                const     0x801'1f30     0x14  Gestures.o [7]
+  .rodata                const     0x801'1f44     0x14  Gestures.o [7]
+  .rodata                const     0x801'1f58     0x10  BoardConfiguration.o [1]
+  .rodata                const     0x801'1f68     0x10  Screen2Presenter.o [1]
+  .text                  ro code   0x801'1f78     0x10  startup_stm32f746xx.o [1]
+  FontFlashSection       const     0x801'1f88     0x10  Table_verdana_10_4bpp.o [1]
+  FontFlashSection       const     0x801'1f98     0x10  Table_verdana_20_4bpp.o [1]
+  FontFlashSection       const     0x801'1fa8     0x10  Table_verdana_40_4bpp.o [1]
+  .rodata                const     0x801'1fb8      0xc  main.o [1]
+  .rodata                const     0x801'1fc4      0xc  usbh_core.o [1]
+  .text                  ro code   0x801'1fd0      0xc  STM32F7HAL.o [1]
+  .text                  ro code   0x801'1fdc      0xc  cstartup_M.o [5]
+  SHT$$PREINIT_ARRAY               0x801'1fe8      0x0  <Block>
+  SHT$$INIT_ARRAY                  0x801'1fe8      0xc  <Block>
+    .init_array          const     0x801'1fe8      0x4  BoardConfiguration.o [1]
+    .init_array          const     0x801'1fec      0x4  Texts.o [1]
+    .init_array          const     0x801'1ff0      0x4  TypedTextDatabase.o [1]
+  __iar_tls$$INIT_ARRAY            0x801'1ff4      0x0  <Block>
+  .rodata                const     0x801'1ff4      0x8  system_stm32f7xx.o [1]
+  .text                  ro code   0x801'1ffc      0x8  BoardConfiguration.o [1]
+  .text                  ro code   0x801'2004      0x8  STM32F7HAL.o [1]
+  .rodata                const     0x801'200c      0x4  usbh_cdc.o [1]
+  .text                  ro code   0x801'2010      0x4  BoardConfiguration.o [1]
+  .text                  ro code   0x801'2014      0x4  BoardConfiguration.o [1]
+  .text                  ro code   0x801'2018      0x4  BoardConfiguration.o [1]
+  .text                  ro code   0x801'201c      0x4  FrontendApplicationBase.o [1]
+  .text                  ro code   0x801'2020      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2024      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2028      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'202c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2030      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2034      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2038      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'203c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2040      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2044      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2048      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'204c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2050      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2054      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2058      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'205c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2060      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2064      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2068      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'206c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2070      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2074      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2078      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'207c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2080      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2084      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2088      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'208c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2090      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2094      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2098      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'209c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20a0      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20a4      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20a8      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20ac      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20b0      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20b4      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20b8      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20bc      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20c0      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20c4      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20c8      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20cc      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20d0      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20d4      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20d8      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20dc      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20e0      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20e4      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20e8      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20ec      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20f0      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20f4      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20f8      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'20fc      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2100      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2104      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2108      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'210c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2110      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2114      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2118      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'211c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2120      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2124      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2128      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'212c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2130      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2134      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2138      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'213c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2140      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2144      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2148      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'214c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2150      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2154      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2158      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'215c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2160      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2164      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2168      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'216c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2170      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2174      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2178      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'217c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2180      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2184      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2188      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'218c      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2190      0x4  startup_stm32f746xx.o [1]
+  .text                  ro code   0x801'2194      0x4  STM32F7Instrumentation.o [1]
+  .text                  ro code   0x801'2198      0x4  STM32F7Instrumentation.o [1]
+  .text                  ro code   0x801'219c      0x4  LCD16bpp.o [7]
+  .text                  ro code   0x801'21a0      0x4  AbstractButton.o [7]
+  .text                  ro code   0x801'21a4      0x4  AbstractButton.o [7]
+  .text                  ro code   0x801'21a8      0x4  AbstractButton.o [7]
+  .text                  ro code   0x801'21ac      0x4  AbstractButton.o [7]
+  FontFlashSection       const     0x801'21b0      0x4  Kerning_verdana_10_4bpp.o [1]
+  FontFlashSection       const     0x801'21b4      0x4  Kerning_verdana_20_4bpp.o [1]
+  FontFlashSection       const     0x801'21b8      0x4  Kerning_verdana_40_4bpp.o [1]
+  TextFlashSection       const     0x801'21bc      0x4  Texts.o [1]
+  TextFlashSection       const     0x801'21c0      0x4  TypedTextDatabase.o [1]
+  .text                  ro code   0x801'21c4      0x2  Screen2ViewBase.o [1]
+  .text                  ro code   0x801'21c6      0x2  Screen2ViewBase.o [1]
+  .text                  ro code   0x801'21c8      0x2  Screen2ViewBase.o [1]
+  .text                  ro code   0x801'21ca      0x2  Screen2ViewBase.o [1]
+  .text                  ro code   0x801'21cc      0x2  Screen2ViewBase.o [1]
+  .text                  ro code   0x801'21ce      0x2  Application.o [7]
+  .text                  ro code   0x801'21d0      0x2  Application.o [7]
+  .text                  ro code   0x801'21d2      0x2  Application.o [7]
+  .text                  ro code   0x801'21d4      0x2  Application.o [7]
+  .text                  ro code   0x801'21d6      0x2  Application.o [7]
+  .text                  ro code   0x801'21d8      0x2  Screen.o [7]
+  .text                  ro code   0x801'21da      0x2  Box.o [7]
+  .text                  ro code   0x801'21dc      0x2  AbstractButton.o [7]
+  .text                  ro code   0x801'21de      0x2  AbstractButton.o [7]
+  .text                  ro code   0x801'21e0      0x2  AbstractButton.o [7]
+  TextFlashSection       const     0x801'21e2      0x2  TypedTextDatabase.o [1]
+  .rodata                const     0x801'21e4      0x1  unwind_debug.o [6]
+  FontFlashSection       const     0x801'21e5      0x1  Font_verdana_10_4bpp.o [1]
+  FontFlashSection       const     0x801'21e6      0x1  Font_verdana_20_4bpp.o [1]
+  FontFlashSection       const     0x801'21e7      0x1  Font_verdana_40_4bpp.o [1]
+  .rodata                const     0x801'21e8      0x0  zero_init3.o [5]
+  .rodata                const     0x801'21e8      0x0  lz77_init_single.o [5]
+  Initializer bytes      const     0x801'21e8     0x90  <for P2-1>
+                                 - 0x801'2278  0x120b0
+
+"P2", part 1 of 3:                               0xd48
+  P2-1                            0x2000'0000    0xd48  <Init block>
+    .data                inited   0x2000'0000      0x8  BoardConfiguration.o [1]
+    .data                inited   0x2000'0008    0xab8  BoardConfiguration.o [1]
+    .data                inited   0x2000'0ac0     0x28  ft5336.o [1]
+    .data                inited   0x2000'0ae8      0x9  OSWrappers.o [1]
+    .data                inited   0x2000'0af4      0xc  port.o [1]
+    .data                inited   0x2000'0b00    0x208  sd_diskio.o [1]
+    .data                inited   0x2000'0d08      0xc  stm32f7xx_hal.o [1]
+    .data                inited   0x2000'0d14      0x4  system_stm32f7xx.o [1]
+    .data                inited   0x2000'0d18     0x20  usbh_cdc.o [1]
+    .data                inited   0x2000'0d38     0x10  Application.o [7]
+                                - 0x2000'0d48    0xd48
+
+"P2", part 2 of 3:                              0x96e0
+  .bss                   zero     0x2000'0d48   0x8018  heap_4.o [1]
+  .bss                   zero     0x2000'8d60    0x4d4  main.o [1]
+  .bss                   zero     0x2000'9234    0x3d8  usb_host.o [1]
+  .bss                   zero     0x2000'960c    0x2c4  usbh_conf.o [1]
+  .bss                   zero     0x2000'98d0    0x29c  BoardConfiguration.o [1]
+  .bss                   zero     0x2000'9b6c    0x1d8  dlmalloc.o [2]
+  .bss                   zero     0x2000'9d44    0x108  main.o [1]
+  .bss                   zero     0x2000'9e4c     0xa8  HW_Init.o [1]
+  .bss                   zero     0x2000'9ef4     0xa0  tasks.o [1]
+  .bss                   zero     0x2000'9f94     0x8c  tasks.o [1]
+  .bss                   zero     0x2000'a020     0x6c  BoardConfiguration.o [1]
+  .bss                   zero     0x2000'a08c     0x4c  main.o [1]
+  .bss                   zero     0x2000'a0d8     0x4c  stm32746g_discovery.o [1]
+  .bss                   zero     0x2000'a124     0x4c  stm32746g_discovery_qspi.o [1]
+  .bss                   zero     0x2000'a170     0x4c  TouchCalibration.o [7]
+  .bss                   zero     0x2000'a1bc     0x44  HW_Init.o [1]
+  .bss                   zero     0x2000'a200     0x40  HW_Init.o [1]
+  .bss                   zero     0x2000'a240     0x40  STM32F7Instrumentation.o [1]
+  .bss                   zero     0x2000'a280     0x40  stm32f7xx_hal_timebase_tim.o [1]
+  .bss                   zero     0x2000'a2c0     0x34  stm32746g_discovery_ts.o [1]
+  .bss                   zero     0x2000'a2f4     0x24  FontGetters.o [1]
+  .bss                   zero     0x2000'a318     0x24  FontGetters.o [1]
+  .bss                   zero     0x2000'a33c     0x24  FontGetters.o [1]
+  .bss                   zero     0x2000'a360     0x24  Bitmap.o [7]
+  .bss                   zero     0x2000'a384     0x20  main.o [1]
+  .bss                   zero     0x2000'a3a4     0x18  dlmalloc.o [2]
+  .bss                   zero     0x2000'a3bc     0x10  HAL.o [7]
+  .bss                   zero     0x2000'a3cc      0xc  ff_gen_drv.o [1]
+  .bss                   zero     0x2000'a3d8      0xc  TypedTextDatabase.o [1]
+  .bss                   zero     0x2000'a3e4      0x8  fatfs.o [1]
+  .bss                   zero     0x2000'a3ec      0x8  Texts.o [1]
+  .bss                   zero     0x2000'a3f4      0x6  ft5336.o [1]
+  .bss                   zero     0x2000'a3fa      0x2  HAL.o [7]
+  .bss                   zero     0x2000'a3fc      0x4  HW_Init.o [1]
+  .bss                   zero     0x2000'a400      0x4  STM32F7HAL.o [1]
+  .bss                   zero     0x2000'a404      0x4  stm32f7xx_hal_msp.o [1]
+  .bss                   zero     0x2000'a408      0x4  stm32f7xx_ll_usb.o [1]
+  .bss                   zero     0x2000'a40c      0x4  FontManager.o [7]
+  .bss                   zero     0x2000'a410      0x4  TypedText.o [7]
+  .bss                   zero     0x2000'a414      0x4  TypedText.o [7]
+  .bss                   zero     0x2000'a418      0x4  TypedText.o [7]
+  .bss                   zero     0x2000'a41c      0x4  xgetmemchunk.o [2]
+  .bss                   zero     0x2000'a420      0x2  TypedText.o [7]
+  .bss                   zero     0x2000'a422      0x1  BoardConfiguration.o [1]
+  .bss                   zero     0x2000'a423      0x1  STM32F7DMA.o [1]
+  .bss                   zero     0x2000'a424      0x1  usb_host.o [1]
+                                - 0x2000'a425   0x96dd
+
+"P2", part 3 of 3:                              0x2000
+  CSTACK                          0x2000'a428   0x1000  <Block>
+    CSTACK               uninit   0x2000'a428   0x1000  <Block tail>
+  HEAP                            0x2000'b428   0x1000  <Block>
+    HEAP                 uninit   0x2000'b428   0x1000  <Block tail>
+                                - 0x2000'c428   0x2000
+
+"P3":                                          0x13ec0
+  ExtFlashSection        const    0x9000'0000   0x9f60  blue_buttons_round_edge_small.o [1]
+  ExtFlashSection        const    0x9000'9f60   0x9f60  blue_buttons_round_edge_small_pressed.o [1]
+                                - 0x9001'3ec0  0x13ec0
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x801'2278   0x80f'ffff  0xe'dd88
+  0x2000'c428  0x2004'ffff  0x4'3bd8
+  0x9001'3ec0  0x9010'0000  0xe'c141
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x96dd:
+          0x2000'0d48  0x96dd
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x90 (4% of destination):
+           0x801'21e8    0x90
+    1 destination range, total size 0xd48:
+          0x2000'0000   0xd48
+
+Extra (__iar_cstart_call_ctors)
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                   ro code  ro data  rw data
+    ------                                   -------  -------  -------
+command line/config:
+    ------------------------------------------------------------------
+    Total:
+
+C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj: [1]
+    ApplicationFontProvider.o                              20
+    BitmapDatabase.o                              12       40
+    BoardConfiguration.o                         818      332    3 529
+    FontGetters.o                                184               108
+    Font_verdana_10_4bpp.o                                  1
+    Font_verdana_20_4bpp.o                                  1
+    Font_verdana_40_4bpp.o                                  1
+    FrontendApplication.o                         46       60
+    FrontendApplicationBase.o                  2 502    2 176
+    GPIO.o                                         8
+    HW_Init.o                                  1 048               304
+    Kerning_verdana_10_4bpp.o                               4
+    Kerning_verdana_20_4bpp.o                               4
+    Kerning_verdana_40_4bpp.o                               4
+    Model.o                                       10
+    OSWrappers.o                                 248                 9
+    STM32F7DMA.o                                 796       76        1
+    STM32F7HAL.o                                 650      324        4
+    STM32F7Instrumentation.o                     382       40       64
+    STM32F7TouchController.o                      70       24
+    Screen1Presenter.o                            50       40
+    Screen1View.o                                 32       52
+    Screen1ViewBase.o                            280      128
+    Screen2Presenter.o                            56       80
+    Screen2View.o                                 32       52
+    Screen2ViewBase.o                            520      128
+    Table_verdana_10_4bpp.o                                16
+    Table_verdana_20_4bpp.o                                16
+    Table_verdana_40_4bpp.o                                16
+    Texts.o                                       84        8        8
+    TypedTextDatabase.o                           48       10       12
+    blue_buttons_round_edge_small.o                    40 800
+    blue_buttons_round_edge_small_pressed.o            40 800
+    bsp_driver_sd.o                              148
+    cmsis_os.o                                   372
+    fatfs.o                                       24                 8
+    fatfs_platform.o                              28
+    ff_gen_drv.o                                  68                12
+    ft5336.o                                     672        2       46
+    heap_4.o                                     448            32 792
+    list.o                                       148
+    main.o                                     2 580      192    1 608
+    port.o                                       484        1       12
+    portasm.o                                    180
+    queue.o                                    1 808
+    sd_diskio.o                                  536       42      520
+    startup_stm32f746xx.o                        844
+    stm32746g_discovery.o                        520                76
+    stm32746g_discovery_qspi.o                   840                76
+    stm32746g_discovery_ts.o                     520                52
+    stm32f7xx_hal.o                               90                12
+    stm32f7xx_hal_adc.o                          676
+    stm32f7xx_hal_cortex.o                       296
+    stm32f7xx_hal_crc.o                          120
+    stm32f7xx_hal_crc_ex.o                        76
+    stm32f7xx_hal_dcmi.o                         144
+    stm32f7xx_hal_dma.o                          282
+    stm32f7xx_hal_dma2d.o                        790
+    stm32f7xx_hal_eth.o                          978
+    stm32f7xx_hal_gpio.o                         780
+    stm32f7xx_hal_hcd.o                        1 948
+    stm32f7xx_hal_i2c.o                        1 408
+    stm32f7xx_hal_i2c_ex.o                       126
+    stm32f7xx_hal_ltdc.o                       1 024
+    stm32f7xx_hal_msp.o                        2 316                 4
+    stm32f7xx_hal_pwr.o                           16
+    stm32f7xx_hal_pwr_ex.o                       116
+    stm32f7xx_hal_qspi.o                       1 502
+    stm32f7xx_hal_rcc.o                        1 268
+    stm32f7xx_hal_rcc_ex.o                     1 336
+    stm32f7xx_hal_rtc.o                        1 034
+    stm32f7xx_hal_rtc_ex.o                       104
+    stm32f7xx_hal_sai.o                          540
+    stm32f7xx_hal_sd.o                         2 318
+    stm32f7xx_hal_sdram.o                        154
+    stm32f7xx_hal_spdifrx.o                      112
+    stm32f7xx_hal_spi.o                          180
+    stm32f7xx_hal_tim.o                        1 850
+    stm32f7xx_hal_tim_ex.o                       234
+    stm32f7xx_hal_timebase_tim.o                 120                64
+    stm32f7xx_hal_uart.o                       1 086
+    stm32f7xx_it.o                                52
+    stm32f7xx_ll_fmc.o                           292
+    stm32f7xx_ll_sdmmc.o                       1 336
+    stm32f7xx_ll_usb.o                         1 610                 4
+    system_stm32f7xx.o                            96        8        4
+    tasks.o                                    2 216               300
+    usb_host.o                                   100               985
+    usbh_cdc.o                                   880        6       32
+    usbh_conf.o                                  504               708
+    usbh_core.o                                1 268       12
+    usbh_ctlreq.o                              1 118
+    usbh_ioreq.o                                 132
+    usbh_pipes.o                                 114
+    usbh_platform.o                               20
+    ------------------------------------------------------------------
+    Total:                                    50 858   85 516   41 354
+
+dl7M_tlf.a: [2]
+    abort.o                                        6
+    cppinit.o                                     24
+    dlmalloc.o                                 5 344               496
+    exit.o                                         4
+    heaptramp0.o                                   4
+    low_level_init.o                               4
+    xgetmemchunk.o                                44                 4
+    ------------------------------------------------------------------
+    Total:                                     5 430               500
+
+dlpp7M_tl_fc.a: [3]
+    cxxabi.o                                      40
+    ------------------------------------------------------------------
+    Total:                                        40
+
+m7M_tls.a: [4]
+    fpinit_M.o                                    34
+    ------------------------------------------------------------------
+    Total:                                        34
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                                   6
+    ABImemcpy.o                                  166
+    ABImemset48.o                                 58
+    I64DivMod_small.o                            262
+    I64DivZer.o                                    2
+    cexit.o                                       10
+    cmain.o                                       30
+    cmain_call_ctors.o                            32
+    cstartup_M.o                                  12
+    data_init.o                                   40
+    lz77_init_single.o                           122
+    memcpy.o                                      12
+    zero_init3.o                                  58
+    ------------------------------------------------------------------
+    Total:                                       810
+
+shb_l.a: [6]
+    ABIassert.o                                   36
+    exit.o                                        20
+    unwind_debug.o                                          1
+    ------------------------------------------------------------------
+    Total:                                        56        1
+
+touchgfx_core_release.a: [7]
+    AbstractButton.o                             136
+    AbstractPartition.o                            8
+    Application.o                              1 890      101       16
+    Bitmap.o                                     848                36
+    Box.o                                         98      108
+    Button.o                                     232      116
+    Color.o                                      176
+    ConstFont.o                                   44
+    Container.o                                  616      144
+    DMA.o                                        504       36
+    DisplayTransformation.o                      144
+    Drawable.o                                   372
+    EasingEquations.o                            114
+    FontManager.o                                 12                 4
+    Gestures.o                                   352       60
+    HAL.o                                      1 508                18
+    InternalFlashFont.o                           84       76
+    LCD16bpp.o                                 2 628       52
+    Screen.o                                   1 960       52
+    SnapshotWidget.o                             224      116
+    TouchCalibration.o                           252                76
+    TypedText.o                                                     14
+    stm32_crc_lock.o                             112
+    ------------------------------------------------------------------
+    Total:                                    12 314      861      164
+
+    Gaps                                                    4        3
+    Linker created                                         36    8 192
+----------------------------------------------------------------------
+    Grand Total:                              69 542   86 418   50 213
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x801'1c84           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x801'1ca8           --   Gb  - Linker created -
+?main                    0x801'1d45          Code  Gb  cmain.o [5]
+ADC_Init                 0x800'327f    0xfc  Code  Lc  stm32f7xx_hal_adc.o [1]
+AHBPrescTable            0x801'1488    0x10  Data  Gb  system_stm32f7xx.o [1]
+APBPrescTable            0x801'1ff4     0x8  Data  Gb  system_stm32f7xx.o [1]
+Appli_state             0x2000'a424     0x1  Data  Gb  usb_host.o [1]
+BSP_PlatformIsDetected   0x800'fce5    0x1c  Code  Gb  fatfs_platform.o [1]
+BSP_QSPI_EnableMemoryMappedMode
+                         0x800'69a1    0x46  Code  Gb  stm32746g_discovery_qspi.o [1]
+BSP_QSPI_Init            0x800'6889    0xea  Code  Gb  stm32746g_discovery_qspi.o [1]
+BSP_SD_GetCardInfo       0x800'faa3     0x8  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_GetCardState      0x800'fa8f    0x14  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_Init              0x800'fa39    0x2c  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_IsDetected        0x800'fab5    0x18  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_ReadBlocks_DMA    0x800'fa65    0x12  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_ReadCpltCallback
+                         0x800'fcc7     0xe  Code  Gb  sd_diskio.o [1]
+BSP_SD_WriteBlocks_DMA   0x800'fa77    0x10  Code  Gb  bsp_driver_sd.o [1]
+BSP_TS_GetState          0x801'0551   0x170  Code  Gb  stm32746g_discovery_ts.o [1]
+BSP_TS_GetState::_x     0x2000'a2cc    0x14  Data  Lc  stm32746g_discovery_ts.o [1]
+BSP_TS_GetState::_y     0x2000'a2e0    0x14  Data  Lc  stm32746g_discovery_ts.o [1]
+BSP_TS_Get_GestureId     0x801'06c1    0x5a  Code  Gb  stm32746g_discovery_ts.o [1]
+BSP_TS_Init              0x801'051d    0x32  Code  Gb  stm32746g_discovery_ts.o [1]
+BitmapDatabase::getInstance()
+                         0x800'a8cd     0x4  Code  Gb  BitmapDatabase.o [1]
+BitmapDatabase::getInstanceSize()
+                         0x800'a8d5     0x4  Code  Gb  BitmapDatabase.o [1]
+BusFault_Handler         0x801'1a83     0x2  Code  Gb  stm32f7xx_it.o [1]
+CDC_Class               0x2000'0d18    0x20  Data  Gb  usbh_cdc.o [1]
+CDC_ProcessTransmission
+                         0x800'ffd5    0x96  Code  Lc  usbh_cdc.o [1]
+CRC_Lock                 0x800'c2ed    0x70  Code  Gb  stm32_crc_lock.o [7]
+CSTACK$$Base            0x2000'a428           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'b428           --   Gb  - Linker created -
+Command                 0x2000'a1f0    0x10  Data  Lc  HW_Init.o [1]
+DMA2D_IRQHandler         0x801'1a9b     0x6  Code  Gb  stm32f7xx_it.o [1]
+DMA2D_SetConfig          0x800'9db7    0x88  Code  Lc  stm32f7xx_hal_dma2d.o [1]
+DMA_SetConfig            0x800'93ab    0x20  Code  Lc  stm32f7xx_hal_dma.o [1]
+DeInitStateMachine       0x800'947b    0x40  Code  Lc  usbh_core.o [1]
+DebugMon_Handler         0x801'1a87     0x2  Code  Gb  stm32f7xx_it.o [1]
+ETH_MACDMAConfig         0x800'3745    0xea  Code  Lc  stm32f7xx_hal_eth.o [1]
+Error_Handler            0x800'3085     0x2  Code  Gb  main.o [1]
+FATFS_LinkDriver         0x800'940f     0x4  Code  Gb  ff_gen_drv.o [1]
+FATFS_LinkDriverEx       0x800'93d5    0x3a  Code  Gb  ff_gen_drv.o [1]
+FMC_Initialized         0x2000'a3fc     0x4  Data  Lc  HW_Init.o [1]
+FMC_SDRAM_Init           0x800'bd29    0x76  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_ProgramRefreshRate
+                         0x800'be41     0xc  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_SendCommand    0x800'be1d    0x24  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_Timing_Init    0x800'bd9f    0x7a  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FrontendApplication::FrontendApplication(Model &, FrontendHeap &)
+                         0x800'c165    0x10  Code  Gb  FrontendApplication.o [1]
+FrontendApplication::handleTickEvent()
+                         0x801'1ea1    0x16  Code  Gb  FrontendApplication.o [1]
+FrontendApplicationBase::FrontendApplicationBase(Model &, FrontendHeap &)
+                         0x800'c211    0x32  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::FrontendApplicationBase(Model &, FrontendHeap &) [subobject]
+                         0x800'c189     0x2  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoScreen1ScreenNoTransition()
+                         0x800'c245     0xc  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoScreen1ScreenNoTransitionImpl()
+                         0x800'c251     0xc  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoScreen1ScreenSlideTransitionWest()
+                         0x800'c25d     0xa  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoScreen1ScreenSlideTransitionWestImpl()
+                         0x800'c287     0xc  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoScreen2ScreenSlideTransitionEast()
+                         0x800'c2bd     0xc  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoScreen2ScreenSlideTransitionEastImpl()
+                         0x800'c2c9     0xc  Code  Gb  FrontendApplicationBase.o [1]
+FrontendHeap::FrontendHeap()
+                         0x800'a939    0x58  Code  Gb  BoardConfiguration.o [1]
+FrontendHeap::getInstance()::instance
+                        0x2000'98d0   0x29c  Data  Gb  BoardConfiguration.o [1]
+FrontendHeapBase::FrontendHeapBase(touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, FrontendApplication &)
+                         0x800'd585    0x1c  Code  Gb  BoardConfiguration.o [1]
+FrontendHeapBase::FrontendHeapBase(touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, FrontendApplication &) [subobject]
+                         0x800'c11d     0xc  Code  Gb  BoardConfiguration.o [1]
+GRAPHICS_HW_Init()       0x800'517b    0x1e  Code  Gb  BoardConfiguration.o [1]
+GRAPHICS_Init()          0x800'51f9     0x2  Code  Gb  BoardConfiguration.o [1]
+GRAPHICS_MainTask()      0x800'51fb     0xa  Code  Gb  BoardConfiguration.o [1]
+GetLineCoding            0x800'ffb7    0x1e  Code  Lc  usbh_cdc.o [1]
+HAL_ADC_ConfigChannel    0x800'3141   0x128  Code  Gb  stm32f7xx_hal_adc.o [1]
+HAL_ADC_Init             0x800'30f1    0x50  Code  Gb  stm32f7xx_hal_adc.o [1]
+HAL_ADC_MspInit          0x800'4871    0x78  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_CRCEx_Polynomial_Set
+                         0x800'77b1    0x4c  Code  Gb  stm32f7xx_hal_crc_ex.o [1]
+HAL_CRC_Init             0x800'3395    0x74  Code  Gb  stm32f7xx_hal_crc.o [1]
+HAL_CRC_MspInit          0x800'48e9    0x26  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_DCMI_Init            0x800'340d    0x8c  Code  Gb  stm32f7xx_hal_dcmi.o [1]
+HAL_DCMI_MspInit         0x800'490f    0xac  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_DMA2D_BlendingStart_IT
+                         0x800'9baf    0x10  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_ConfigLayer    0x800'9d13    0x94  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_IRQHandler     0x800'9c01   0x102  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_Init           0x800'9b2d    0x56  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_MspInit        0x800'7f65    0x34  Code  Gb  HW_Init.o [1]
+HAL_DMA2D_Start_IT       0x800'9b83    0x12  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA_Abort            0x800'931d    0x8a  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_GetError         0x800'93a7     0x4  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_Start_IT         0x800'92b1    0x6c  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_Delay                0x800'7809    0x28  Code  Wk  stm32f7xx_hal.o [1]
+HAL_ETH_Init             0x800'349d   0x1b4  Code  Gb  stm32f7xx_hal_eth.o [1]
+HAL_ETH_MspInit          0x800'49ef    0xb6  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_ETH_ReadPHYRegister
+                         0x800'365f    0x78  Code  Gb  stm32f7xx_hal_eth.o [1]
+HAL_ETH_WritePHYRegister
+                         0x800'36d7    0x6e  Code  Gb  stm32f7xx_hal_eth.o [1]
+HAL_GPIO_DeInit          0x800'7557   0x10c  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'73a1   0x1b6  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin         0x800'7663     0xc  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'766f     0x8  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GetTick              0x800'77fd     0xc  Code  Wk  stm32f7xx_hal.o [1]
+HAL_HCD_Connect_Callback
+                         0x800'b561     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_Disconnect_Callback
+                         0x800'b569     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_GetCurrentFrame
+                         0x800'cf75     0x6  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_GetCurrentSpeed
+                         0x800'cf7b     0x6  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_HC_GetURBState   0x800'cf5f     0xc  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_HC_GetXferCount
+                         0x800'cf6b     0xa  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_HC_Halt          0x800'cd4f    0x18  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_HC_Init          0x800'cce9    0x66  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_HC_NotifyURBChange_Callback
+                         0x800'b571     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_HC_SubmitRequest
+                         0x800'cd69    0x8a  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_IRQHandler       0x800'cdf3   0x114  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_Init             0x800'cc89    0x56  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_MspInit          0x800'b4d9    0x80  Code  Gb  usbh_conf.o [1]
+HAL_HCD_PortDisabled_Callback
+                         0x800'b581     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_PortEnabled_Callback
+                         0x800'b579     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_ResetPort        0x800'cf59     0x6  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_SOF_Callback     0x800'b559     0x8  Code  Gb  usbh_conf.o [1]
+HAL_HCD_Start            0x800'cf0d    0x20  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_HCD_Stop             0x800'cf3f    0x1a  Code  Gb  stm32f7xx_hal_hcd.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                         0x800'3e29    0x2a  Code  Gb  stm32f7xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                         0x800'3e53    0x26  Code  Gb  stm32f7xx_hal_i2c_ex.o [1]
+HAL_I2C_DeInit           0x800'3949    0x26  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_GetState         0x800'3c05     0x6  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Init             0x800'38a9    0xa0  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read         0x800'3a97    0xb6  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write        0x800'3989    0xae  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_MspDeInit        0x800'4b6f    0x3e  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_I2C_MspInit          0x800'4ac3    0xac  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_IncTick              0x800'7729    0x10  Code  Wk  stm32f7xx_hal.o [1]
+HAL_Init                 0x800'30a1    0x16  Code  Gb  stm32f7xx_hal.o [1]
+HAL_InitTick             0x800'7739    0x68  Code  Gb  stm32f7xx_hal_timebase_tim.o [1]
+HAL_LTDC_ConfigLayer     0x800'9ffd    0x2c  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_DeInit          0x800'9f2b    0x18  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_IRQHandler      0x800'9f43    0xba  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_Init            0x800'9e45    0xe6  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_LineEventCallback
+                         0x800'bcab    0x4c  Code  Gb  STM32F7HAL.o [1]
+HAL_LTDC_MspDeInit       0x800'7e69    0x4e  Code  Gb  HW_Init.o [1]
+HAL_LTDC_MspInit         0x800'7d65    0xe6  Code  Gb  HW_Init.o [1]
+HAL_LTDC_ProgramLineEvent
+                         0x800'a091    0x2a  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_SetPitch        0x800'a029    0x68  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_MPU_ConfigRegion     0x800'6c8d    0x4c  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_MPU_Enable           0x800'6c73    0x1a  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_MspInit              0x800'4839    0x38  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ      0x800'6c55    0x1e  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ       0x800'6c3f    0x16  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'6c05    0x3a  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'6beb    0x1a  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_PWREx_EnableOverDrive
+                         0x800'5ce1    0x46  Code  Gb  stm32f7xx_hal_pwr_ex.o [1]
+HAL_PWR_EnableBkUpAccess
+                         0x800'57dd     0xc  Code  Gb  stm32f7xx_hal_pwr.o [1]
+HAL_QSPI_Abort           0x800'6677    0x74  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_AutoPolling     0x800'6551    0x98  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_Command         0x800'6367    0x76  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_DeInit          0x800'6335    0x32  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_Init            0x800'628d    0xa0  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_MemoryMapped    0x800'65f3    0x7a  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_MspDeInit       0x800'4c73    0x32  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_QSPI_MspInit         0x800'4bad    0x78  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_QSPI_Receive         0x800'6497    0xba  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_Transmit        0x800'63e7    0xb0  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_RCCEx_GetPeriphCLKFreq
+                         0x800'61bf    0x7c  Code  Gb  stm32f7xx_hal_rcc_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'5d55   0x442  Code  Gb  stm32f7xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig      0x800'5aff    0xf8  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetClockConfig   0x800'5c81    0x36  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq      0x800'5c57     0x6  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'5c5d    0x10  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq     0x800'5c6d     0xe  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'5c0b    0x4c  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'57ed   0x312  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RTCEx_SetTimeStamp   0x800'711d    0x54  Code  Gb  stm32f7xx_hal_rtc_ex.o [1]
+HAL_RTC_Init             0x800'6cf9    0x8c  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_RTC_MspInit          0x800'4caf    0x18  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_RTC_SetAlarm         0x800'6f13   0x132  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_RTC_SetDate          0x800'6e4f    0xaa  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_RTC_SetTime          0x800'6d85    0xca  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_RTC_WaitForSynchro   0x800'7085    0x32  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_SAI_Init             0x800'7185   0x1b0  Code  Gb  stm32f7xx_hal_sai.o [1]
+HAL_SAI_MspInit          0x800'5029    0x84  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_SDRAM_Init           0x800'a241    0x3c  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_MspInit        0x800'7f63     0x2  Code  Gb  HW_Init.o [1]
+HAL_SDRAM_ProgramRefreshRate
+                         0x800'a2ad    0x1a  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_SendCommand    0x800'a27d    0x30  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SD_ConfigWideBusOperation
+                         0x800'f08b   0x110  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_GetCardCSD        0x800'ee97   0x1ce  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_GetCardInfo       0x800'f065    0x26  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_GetCardState      0x800'f1a5    0x26  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_Init              0x800'ebf1    0x34  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_InitCard          0x800'ec25    0x70  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_MspInit           0x800'4cc7    0x5c  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_SD_ReadBlocks_DMA    0x800'ec9d    0xcc  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_RxCpltCallback    0x800'fab1     0x4  Code  Gb  bsp_driver_sd.o [1]
+HAL_SD_WriteBlocks_DMA   0x800'ed9b    0xf6  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SPDIFRX_Init         0x800'3ee1    0x6a  Code  Gb  stm32f7xx_hal_spdifrx.o [1]
+HAL_SPDIFRX_MspInit      0x800'4d47    0x52  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_SPI_Init             0x800'3f51    0xaa  Code  Gb  stm32f7xx_hal_spi.o [1]
+HAL_SPI_MspInit          0x800'4da3    0x7e  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_TIMEx_Break2Callback
+                         0x800'7837     0x2  Code  Wk  stm32f7xx_hal_tim_ex.o [1]
+HAL_TIMEx_BreakCallback
+                         0x800'7835     0x2  Code  Wk  stm32f7xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutCallback
+                         0x800'783b     0x2  Code  Wk  stm32f7xx_hal_tim_ex.o [1]
+HAL_TIMEx_ConfigBreakDeadTime
+                         0x800'47a9    0x84  Code  Gb  stm32f7xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'4755    0x54  Code  Gb  stm32f7xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init        0x800'4005    0x1a  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit     0x800'4e29    0x6e  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_TIM_Base_Start       0x800'401f    0x2c  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_Start_IT    0x800'404b    0x28  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                         0x800'434d    0x8e  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_IRQHandler       0x800'40b5   0x15c  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_MspPostInit      0x800'4ebb    0x94  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_TIM_PWM_ConfigChannel
+                         0x800'4217   0x11e  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_PWM_Init         0x800'4087    0x1a  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_PWM_MspInit      0x800'4e97    0x24  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'2fd3     0xe  Code  Gb  main.o [1]
+HAL_UART_Init            0x800'5381    0x36  Code  Gb  stm32f7xx_hal_uart.o [1]
+HAL_UART_MspInit         0x800'4f69    0x86  Code  Gb  stm32f7xx_hal_msp.o [1]
+HCD_HC_IN_IRQHandler     0x800'cf81   0x1be  Code  Lc  stm32f7xx_hal_hcd.o [1]
+HCD_HC_OUT_IRQHandler    0x800'd14f   0x19e  Code  Lc  stm32f7xx_hal_hcd.o [1]
+HCD_Port_IRQHandler      0x800'd36b    0xba  Code  Lc  stm32f7xx_hal_hcd.o [1]
+HCD_RXQLVL_IRQHandler    0x800'd2fb    0x5c  Code  Lc  stm32f7xx_hal_hcd.o [1]
+HEAP$$Base              0x2000'b428           --   Gb  - Linker created -
+HEAP$$Limit             0x2000'c428           --   Gb  - Linker created -
+HardFault_Handler        0x801'1a7f     0x2  Code  Gb  stm32f7xx_it.o [1]
+I2C_Flush_TXDR           0x800'3ca7    0x1c  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                         0x800'3d8b    0x70  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryRead    0x800'3c45    0x38  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite   0x800'3c0b    0x3a  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_TransferConfig       0x800'3dfb    0x22  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                         0x800'3cc3    0x42  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                         0x800'3d53    0x30  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                         0x800'3d05    0x36  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2Cx_Error               0x801'049b    0x10  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_Init                0x801'041f    0x3c  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_MspInit             0x801'0315   0x10a  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_ReadMultiple        0x801'045b     0xc  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_WriteMultiple       0x801'0467     0xa  Code  Lc  stm32746g_discovery.o [1]
+I2cAddress              0x2000'a2c1     0x1  Data  Lc  stm32746g_discovery_ts.o [1]
+Initialization guard variable for FrontendHeap::getInstance()::instance
+                        0x2000'a422     0x1  Data  Gb  BoardConfiguration.o [1]
+LCD_GetXSize             0x800'516f     0x6  Code  Gb  BoardConfiguration.o [1]
+LCD_GetYSize             0x800'5175     0x6  Code  Gb  BoardConfiguration.o [1]
+LTDC_IRQHandler          0x801'1a95     0x6  Code  Gb  stm32f7xx_it.o [1]
+LTDC_SetConfig           0x800'a135    0xfa  Code  Lc  stm32f7xx_hal_ltdc.o [1]
+MX_DriverVbusFS          0x800'd425    0x14  Code  Gb  usbh_platform.o [1]
+MX_FATFS_Init            0x800'76ad    0x10  Code  Gb  fatfs.o [1]
+MX_FMC_Init()            0x800'7c7f    0x64  Code  Gb  HW_Init.o [1]
+MX_LCD_Init()            0x800'7bc9    0xb6  Code  Gb  HW_Init.o [1]
+MX_SDRAM_InitEx()        0x800'7ce3    0x76  Code  Gb  HW_Init.o [1]
+MX_USB_HOST_Init         0x800'76c5    0x36  Code  Gb  usb_host.o [1]
+MemManage_Handler        0x801'1a81     0x2  Code  Gb  stm32f7xx_it.o [1]
+Model::Model()           0x800'c17d     0x2  Code  Gb  Model.o [1]
+Model::tick()            0x800'c185     0x2  Code  Gb  Model.o [1]
+NMI_Handler              0x801'1a7d     0x2  Code  Gb  stm32f7xx_it.o [1]
+OTG_FS_IRQHandler        0x801'1a8f     0x6  Code  Gb  stm32f7xx_it.o [1]
+PendSV_Handler           0x800'cbd5          Code  Gb  portasm.o [1]
+QSPIHandle              0x2000'a124    0x4c  Data  Gb  stm32746g_discovery_qspi.o [1]
+QSPI_AutoPollingMemReady
+                         0x800'6a4f    0x42  Code  Lc  stm32746g_discovery_qspi.o [1]
+QSPI_Config              0x800'6733   0x138  Code  Lc  stm32f7xx_hal_qspi.o [1]
+QSPI_WaitFlagStateUntilTimeout
+                         0x800'66eb    0x48  Code  Lc  stm32f7xx_hal_qspi.o [1]
+QSPI_WriteEnable         0x800'69f1    0x5e  Code  Lc  stm32746g_discovery_qspi.o [1]
+RTC_ByteToBcd2           0x800'70ed    0x16  Code  Gb  stm32f7xx_hal_rtc.o [1]
+RTC_EnterInitMode        0x800'70b7    0x36  Code  Gb  stm32f7xx_hal_rtc.o [1]
+Region$$Table$$Base      0x801'1c84           --   Gb  - Linker created -
+Region$$Table$$Limit     0x801'1ca8           --   Gb  - Linker created -
+SAI2_client             0x2000'a404     0x4  Data  Lc  stm32f7xx_hal_msp.o [1]
+SAI_Disable              0x800'7335    0x44  Code  Lc  stm32f7xx_hal_sai.o [1]
+SDMMC_CmdAppCommand      0x800'f707    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdAppOperCommand
+                         0x800'f71d    0x1a  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdBlockLength     0x800'f5a1    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdBusWidth        0x800'f737     0x4  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdGoIdleState     0x800'f659    0x3a  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdOperCond        0x800'f693    0x56  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdReadMultiBlock
+                         0x800'f5cd    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdReadSingleBlock
+                         0x800'f5b7    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdSelDesel        0x800'f635    0x24  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdSendCID         0x800'f765    0x14  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdSendCSD         0x800'f785     0xe  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdSendSCR         0x800'f73b    0x12  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdSendStatus      0x800'f835    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdSetRelAdd       0x800'f7a5    0x90  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdStopTransfer    0x800'f623    0x12  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdWriteMultiBlock
+                         0x800'f5f9    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_CmdWriteSingleBlock
+                         0x800'f5e3    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_ConfigData         0x800'f575    0x26  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetCmdResp1        0x800'f889   0x118  Code  Lc  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetCmdResp2        0x800'f9a1    0x30  Code  Lc  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetCmdResp3        0x800'f9d1    0x26  Code  Lc  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetPowerState      0x800'f535     0x8  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetResponse        0x800'f55f    0x16  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_Init               0x800'f4fd    0x2c  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_PowerState_ON      0x800'f52b     0x4  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_ReadFIFO           0x800'f529     0x2  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_SendCommand        0x800'f53d    0x22  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDPath                  0x2000'a3e8     0x4  Data  Gb  fatfs.o [1]
+SDQueueID               0x2000'0b04     0x4  Data  Lc  sd_diskio.o [1]
+SD_CheckStatus           0x800'faf1    0x1a  Code  Lc  sd_diskio.o [1]
+SD_CheckStatusWithTimeout
+                         0x800'facd    0x24  Code  Lc  sd_diskio.o [1]
+SD_DMAError              0x800'f229    0x5a  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_DMAReceiveCplt        0x800'f1dd    0x3a  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_DMATransmitCplt       0x800'f1cd     0xe  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_Driver                0x801'1f08    0x14  Data  Gb  sd_diskio.o [1]
+SD_FindSCR               0x800'f403    0xd8  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_InitCard              0x800'f293    0xcc  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_PowerON               0x800'f36f    0x94  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_initialize            0x800'fb0d    0x40  Code  Gb  sd_diskio.o [1]
+SD_ioctl                 0x800'fc7d    0x4a  Code  Gb  sd_diskio.o [1]
+SD_read                  0x800'fb4f    0x6a  Code  Gb  sd_diskio.o [1]
+SD_status                0x800'fb4d     0x2  Code  Gb  sd_diskio.o [1]
+SD_write                 0x800'fbb9    0x82  Code  Gb  sd_diskio.o [1]
+SHT$$INIT_ARRAY$$Base    0x801'1fe8           --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Limit   0x801'1ff4           --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Base
+                         0x801'1fe8           --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Limit
+                         0x801'1fe8           --   Gb  - Linker created -
+STM32F7DMA::STM32F7DMA()
+                         0x800'78e1    0x30  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::getBlitCaps()
+                         0x800'7931    0x10  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::initialize()
+                         0x800'7911    0x20  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::setupDataCopy(touchgfx::BlitOp const &)
+                         0x800'7941   0x15c  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::setupDataFill(touchgfx::BlitOp const &)
+                         0x800'7a9d    0xe8  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::signalDMAInterrupt()
+                         0x800'b743     0x6  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::start()      0x800'7bb3     0x4  Code  Gb  STM32F7DMA.o [1]
+STM32F7HAL::STM32F7HAL(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, unsigned short, unsigned short)
+                         0x800'be4d    0x20  Code  Gb  BoardConfiguration.o [1]
+STM32F7HAL::configureInterrupts()
+                         0x800'bc37    0x14  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::disableInterrupts()
+                         0x800'bc7b    0x16  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::enableInterrupts()
+                         0x800'bc91    0x16  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::enableLCDControllerInterrupt()
+                         0x800'bc4b    0x30  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::flushFrameBuffer(touchgfx::Rect const &)
+                         0x800'bca7     0x4  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::getTFTCurrentLine()
+                         0x800'bc19    0x1e  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::getTFTFrameBuffer() const
+                         0x800'bc07     0x6  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::setTFTFrameBuffer(unsigned short *)
+                         0x800'bc0d     0xc  Code  Gb  STM32F7HAL.o [1]
+SVC_Handler              0x800'cc31          Code  Gb  portasm.o [1]
+Screen1Presenter & touchgfx::AbstractPartition::at<Screen1Presenter>(unsigned short)
+                         0x800'e4ab     0x6  Code  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)
+                         0x800'd5c9    0xe0  Code  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 2)
+                         0x801'0ea8    0x90  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 3)
+                         0x801'10e8    0x80  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 5)
+                         0x801'0880    0xa4  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 7)
+                         0x801'0924    0xa4  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)
+                         0x800'd6cd    0xe4  Code  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 2)
+                         0x801'0f38    0x90  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 3)
+                         0x801'1168    0x80  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 5)
+                         0x801'09c8    0xa4  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter * touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 7)
+                         0x801'0a6c    0xa4  Data  Gb  FrontendApplicationBase.o [1]
+Screen1Presenter::Screen1Presenter(Screen1View &)
+                         0x800'e4b1    0x1e  Code  Gb  Screen1Presenter.o [1]
+Screen1Presenter::activate()
+                         0x800'e4dd     0x2  Code  Gb  Screen1Presenter.o [1]
+Screen1Presenter::deactivate()
+                         0x800'e4df     0x2  Code  Gb  Screen1Presenter.o [1]
+Screen1Presenter::~Screen1Presenter()
+                         0x800'e48b     0x2  Code  Gb  Screen1Presenter.o [1]
+Screen1View & touchgfx::AbstractPartition::at<Screen1View>(unsigned short)
+                         0x800'e485     0x6  Code  Gb  FrontendApplicationBase.o [1]
+Screen1View::Screen1View()
+                         0x800'e48d    0x10  Code  Gb  Screen1View.o [1]
+Screen1View::setupScreen()
+                         0x800'e4a5     0x4  Code  Gb  Screen1View.o [1]
+Screen1View::tearDownScreen()
+                         0x800'e4a9     0x2  Code  Gb  Screen1View.o [1]
+Screen1View::~Screen1View()
+                         0x800'e637     0x2  Code  Gb  Screen1View.o [1]
+Screen1ViewBase::Screen1ViewBase()
+                         0x800'e6d5    0x9a  Code  Gb  Screen1ViewBase.o [1]
+Screen1ViewBase::Screen1ViewBase() [subobject]
+                         0x800'e6d1     0x2  Code  Gb  Screen1ViewBase.o [1]
+Screen1ViewBase::buttonCallbackHandler(touchgfx::AbstractButton const &)
+                         0x800'e77b    0x16  Code  Gb  Screen1ViewBase.o [1]
+Screen1ViewBase::setupScreen()
+                         0x800'e779     0x2  Code  Gb  Screen1ViewBase.o [1]
+Screen1ViewBase::~Screen1ViewBase()
+                         0x800'eaaf     0x2  Code  Gb  Screen1ViewBase.o [1]
+Screen2Presenter * touchgfx::makeTransition<Screen2View, Screen2Presenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)
+                         0x800'd7b1    0xe8  Code  Gb  FrontendApplicationBase.o [1]
+Screen2Presenter * touchgfx::makeTransition<Screen2View, Screen2Presenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 2)
+                         0x801'0fc8    0x90  Data  Gb  FrontendApplicationBase.o [1]
+Screen2Presenter * touchgfx::makeTransition<Screen2View, Screen2Presenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 3)
+                         0x801'11e8    0x80  Data  Gb  FrontendApplicationBase.o [1]
+Screen2Presenter * touchgfx::makeTransition<Screen2View, Screen2Presenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 5)
+                         0x801'0b10    0xa4  Data  Gb  FrontendApplicationBase.o [1]
+Screen2Presenter * touchgfx::makeTransition<Screen2View, Screen2Presenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 7)
+                         0x801'0bb4    0xa4  Data  Gb  FrontendApplicationBase.o [1]
+Screen2Presenter::Screen2Presenter(Screen2View &)
+                         0x800'e639    0x1e  Code  Gb  Screen2Presenter.o [1]
+Screen2Presenter::activate()
+                         0x800'e665     0x2  Code  Gb  Screen2Presenter.o [1]
+Screen2Presenter::deactivate()
+                         0x800'e667     0x2  Code  Gb  Screen2Presenter.o [1]
+Screen2Presenter::~Screen2Presenter()
+                         0x801'16df     0x2  Code  Gb  Screen2Presenter.o [1]
+Screen2View::Screen2View()
+                         0x800'e619    0x10  Code  Gb  Screen2View.o [1]
+Screen2View::setupScreen()
+                         0x800'e631     0x4  Code  Gb  Screen2View.o [1]
+Screen2View::tearDownScreen()
+                         0x800'e635     0x2  Code  Gb  Screen2View.o [1]
+Screen2View::~Screen2View()
+                         0x801'1ca9     0x2  Code  Gb  Screen2View.o [1]
+Screen2ViewBase::Screen2ViewBase()
+                         0x800'e8a5    0x9a  Code  Gb  Screen2ViewBase.o [1]
+Screen2ViewBase::Screen2ViewBase() [subobject]
+                         0x800'e8a1     0x2  Code  Gb  Screen2ViewBase.o [1]
+Screen2ViewBase::buttonCallbackHandler(touchgfx::AbstractButton const &)
+                         0x800'e94b    0x16  Code  Gb  Screen2ViewBase.o [1]
+Screen2ViewBase::setupScreen()
+                         0x800'e949     0x2  Code  Gb  Screen2ViewBase.o [1]
+Screen2ViewBase::~Screen2ViewBase()
+                         0x801'21cd     0x2  Code  Gb  Screen2ViewBase.o [1]
+StartDefaultTask(void const *)
+                         0x800'2fbd    0x16  Code  Gb  main.o [1]
+Stat                    0x2000'0b00     0x1  Data  Lc  sd_diskio.o [1]
+SysTick_Handler          0x800'b337    0x1c  Code  Gb  port.o [1]
+SystemClock_Config       0x800'2a15    0xfc  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'0d14     0x4  Data  Gb  system_stm32f7xx.o [1]
+SystemInit               0x801'1439    0x3c  Code  Gb  system_stm32f7xx.o [1]
+TIM6_DAC_IRQHandler      0x801'1a89     0x6  Code  Gb  stm32f7xx_it.o [1]
+TIM_Base_SetConfig       0x800'440b    0x9e  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_ETR_SetConfig        0x800'4723    0x14  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_ITRx_SetConfig       0x800'4713    0x10  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_OC1_SetConfig        0x800'44a9    0x58  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_OC2_SetConfig        0x800'4501    0x60  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_OC3_SetConfig        0x800'4561    0x5e  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_OC4_SetConfig        0x800'45bf    0x3e  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_OC5_SetConfig        0x800'45fd    0x44  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_OC6_SetConfig        0x800'4641    0x3e  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                         0x800'46cd    0x22  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                         0x800'46ef    0x24  Code  Lc  stm32f7xx_hal_tim.o [1]
+TS_IO_Delay              0x801'0517     0x4  Code  Gb  stm32746g_discovery.o [1]
+TS_IO_Init               0x801'04ad     0x2  Code  Gb  stm32746g_discovery.o [1]
+TS_IO_Read               0x801'04d1     0x8  Code  Gb  stm32746g_discovery.o [1]
+TS_IO_Write              0x801'04b3     0x8  Code  Gb  stm32746g_discovery.o [1]
+TypedTextDatabase::getFonts()
+                         0x800'c111     0x4  Code  Gb  TypedTextDatabase.o [1]
+TypedTextDatabase::getInstance(unsigned short)
+                         0x800'c105     0x8  Code  Gb  TypedTextDatabase.o [1]
+TypedTextDatabase::getInstanceSize()
+                         0x800'c10d     0x4  Code  Gb  TypedTextDatabase.o [1]
+UART_AdvFeatureConfig    0x800'5659    0xc8  Code  Gb  stm32f7xx_hal_uart.o [1]
+UART_CheckIdleState      0x800'5721    0x3e  Code  Gb  stm32f7xx_hal_uart.o [1]
+UART_SetConfig           0x800'5409   0x21e  Code  Gb  stm32f7xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                         0x800'575f    0x60  Code  Gb  stm32f7xx_hal_uart.o [1]
+USBH_AllocPipe           0x800'b6f3    0x38  Code  Gb  usbh_pipes.o [1]
+USBH_BulkReceiveData     0x800'd497     0x8  Code  Gb  usbh_ioreq.o [1]
+USBH_BulkSendData        0x800'd467     0xc  Code  Gb  usbh_ioreq.o [1]
+USBH_CDC_ClassRequest    0x800'fe79    0x24  Code  Lc  usbh_cdc.o [1]
+USBH_CDC_InterfaceDeInit
+                         0x800'fe1b    0x5e  Code  Lc  usbh_cdc.o [1]
+USBH_CDC_InterfaceInit   0x800'fd01   0x106  Code  Lc  usbh_cdc.o [1]
+USBH_CDC_Process         0x800'fe9d   0x110  Code  Lc  usbh_cdc.o [1]
+USBH_CDC_SOFProcess      0x800'ffad     0x4  Code  Lc  usbh_cdc.o [1]
+USBH_ClosePipe           0x800'b6e9     0xa  Code  Gb  usbh_pipes.o [1]
+USBH_ClrFeature          0x800'b86f    0x1a  Code  Gb  usbh_ctlreq.o [1]
+USBH_CtlReceiveData      0x800'd45d     0xa  Code  Gb  usbh_ioreq.o [1]
+USBH_CtlReq              0x800'b9c9    0x54  Code  Gb  usbh_ctlreq.o [1]
+USBH_CtlSendData         0x800'd44f     0xe  Code  Gb  usbh_ioreq.o [1]
+USBH_CtlSendSetup        0x800'd439    0x16  Code  Gb  usbh_ioreq.o [1]
+USBH_Delay               0x800'b6bb     0x4  Code  Gb  usbh_conf.o [1]
+USBH_FindInterface       0x800'94f5    0x3e  Code  Gb  usbh_core.o [1]
+USBH_FreePipe            0x800'b72b    0x18  Code  Gb  usbh_pipes.o [1]
+USBH_GetDescriptor       0x800'b7ed    0x32  Code  Gb  usbh_ctlreq.o [1]
+USBH_GetNextDesc         0x800'b9bb     0xe  Code  Gb  usbh_ctlreq.o [1]
+USBH_Get_CfgDesc         0x800'b775    0x2c  Code  Gb  usbh_ctlreq.o [1]
+USBH_Get_DevDesc         0x800'b749    0x2c  Code  Gb  usbh_ctlreq.o [1]
+USBH_Get_StringDesc      0x800'b7a1    0x4c  Code  Gb  usbh_ctlreq.o [1]
+USBH_Get_USB_Status      0x800'b6bf    0x12  Code  Gb  usbh_conf.o [1]
+USBH_HandleControl       0x800'ba1d   0x18a  Code  Lc  usbh_ctlreq.o [1]
+USBH_HandleEnum          0x800'96f5   0x112  Code  Lc  usbh_core.o [1]
+USBH_Init                0x800'9419    0x62  Code  Gb  usbh_core.o [1]
+USBH_LL_ClosePipe        0x800'b64f     0xc  Code  Gb  usbh_conf.o [1]
+USBH_LL_Connect          0x800'9835    0x30  Code  Gb  usbh_core.o [1]
+USBH_LL_Disconnect       0x800'986d    0x40  Code  Gb  usbh_core.o [1]
+USBH_LL_DriverVBUS       0x800'b687    0x1a  Code  Gb  usbh_conf.o [1]
+USBH_LL_GetLastXferSize
+                         0x800'b629     0x8  Code  Gb  usbh_conf.o [1]
+USBH_LL_GetSpeed         0x800'b601    0x1c  Code  Gb  usbh_conf.o [1]
+USBH_LL_GetURBState      0x800'b67f     0x8  Code  Gb  usbh_conf.o [1]
+USBH_LL_IncTimer         0x800'980d    0x1c  Code  Gb  usbh_core.o [1]
+USBH_LL_Init             0x800'b589    0x4c  Code  Gb  usbh_conf.o [1]
+USBH_LL_NotifyURBChange
+                         0x800'98d5    0x18  Code  Gb  usbh_core.o [1]
+USBH_LL_OpenPipe         0x800'b631    0x1e  Code  Gb  usbh_conf.o [1]
+USBH_LL_PortDisabled     0x800'982d     0x2  Code  Gb  usbh_core.o [1]
+USBH_LL_PortEnabled      0x800'9829     0x4  Code  Gb  usbh_core.o [1]
+USBH_LL_ResetPort        0x800'b61d     0xc  Code  Gb  usbh_conf.o [1]
+USBH_LL_SetTimer         0x800'9807     0x6  Code  Gb  usbh_core.o [1]
+USBH_LL_SetToggle        0x800'b6a1    0x1a  Code  Gb  usbh_conf.o [1]
+USBH_LL_Start            0x800'b5e5     0xa  Code  Gb  usbh_conf.o [1]
+USBH_LL_Stop             0x800'b5f5     0xc  Code  Gb  usbh_conf.o [1]
+USBH_LL_SubmitURB        0x800'b65b    0x24  Code  Gb  usbh_conf.o [1]
+USBH_OpenPipe            0x800'b6d1    0x18  Code  Gb  usbh_pipes.o [1]
+USBH_ParseCfgDesc        0x800'b8e1    0xda  Code  Lc  usbh_ctlreq.o [1]
+USBH_ParseDevDesc        0x800'b889    0x58  Code  Lc  usbh_ctlreq.o [1]
+USBH_Process             0x800'9549   0x1ac  Code  Gb  usbh_core.o [1]
+USBH_Process_OS          0x800'98b5    0x20  Code  Lc  usbh_core.o [1]
+USBH_RegisterClass       0x800'94bb    0x22  Code  Gb  usbh_core.o [1]
+USBH_SelectInterface     0x800'94dd    0x18  Code  Gb  usbh_core.o [1]
+USBH_SetAddress          0x800'b81f    0x12  Code  Gb  usbh_ctlreq.o [1]
+USBH_SetCfg              0x800'b831    0x10  Code  Gb  usbh_ctlreq.o [1]
+USBH_SetFeature          0x800'b85d    0x12  Code  Gb  usbh_ctlreq.o [1]
+USBH_Start               0x800'9533    0x14  Code  Gb  usbh_core.o [1]
+USBH_UserProcess         0x800'76fd    0x20  Code  Lc  usb_host.o [1]
+USB_CoreInit             0x800'dd15    0x6e  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_CoreReset            0x800'de5d    0x2a  Code  Lc  stm32f7xx_ll_usb.o [1]
+USB_DisableGlobalInt     0x800'dd8b     0x6  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_DoPing               0x800'e2a9    0x18  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_DriveVbus            0x800'dfc1    0x40  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_EnableGlobalInt      0x800'dd83     0x8  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_FlushRxFifo          0x800'dddd    0x1a  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_FlushTxFifo          0x800'ddbf    0x1e  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_GetCurrentFrame      0x800'e019     0xa  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_GetHostSpeed         0x800'e001    0x18  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_GetMode              0x800'de55     0x8  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_HC_Halt              0x800'e23b    0x6e  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_HC_Init              0x800'e025    0xd6  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_HC_ReadInterrupt     0x800'e231     0xa  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_HC_StartXfer         0x800'e0fd   0x132  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_HC_StartXfer::tmpreg
+                        0x2000'a408     0x4  Data  Lc  stm32f7xx_ll_usb.o [1]
+USB_HostInit             0x800'de87    0xcc  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_InitFSLSPClkSel      0x800'df59    0x32  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadInterrupts       0x800'de4b     0xa  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadPacket           0x800'de1b    0x1e  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ResetPort            0x800'df8b    0x36  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_SetCurrentMode       0x800'dd97    0x28  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_StopHost             0x800'e2e5    0x7a  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_WritePacket          0x800'ddf7    0x24  Code  Gb  stm32f7xx_ll_usb.o [1]
+UsageFault_Handler       0x801'1a85     0x2  Code  Gb  stm32f7xx_it.o [1]
+Virtual function table for ApplicationFontProvider
+                         0x801'1ecc    0x14  Data  Gb  ApplicationFontProvider.o [1]
+Virtual function table for FrontendApplication
+                         0x801'16e0    0x3c  Data  Gb  FrontendApplication.o [1]
+Virtual function table for FrontendApplicationBase
+                         0x801'1758    0x3c  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for FrontendHeap
+                         0x801'1ef4    0x14  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for FrontendHeapBase
+                         0x801'1ee0    0x14  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for ModelListener
+                         0x801'1f68    0x10  Data  Gb  Screen2Presenter.o [1]
+Virtual function table for STM32F7DMA
+                         0x801'1600    0x4c  Data  Gb  STM32F7DMA.o [1]
+Virtual function table for STM32F7HAL
+                         0x801'07d8    0xa8  Data  Gb  STM32F7HAL.o [1]
+Virtual function table for Screen1Presenter
+                         0x801'1b50    0x28  Data  Gb  Screen1Presenter.o [1]
+Virtual function table for Screen1View
+                         0x801'18dc    0x34  Data  Gb  Screen1View.o [1]
+Virtual function table for Screen1ViewBase
+                         0x801'1944    0x34  Data  Gb  Screen1ViewBase.o [1]
+Virtual function table for Screen2Presenter
+                         0x801'1b78    0x28  Data  Gb  Screen2Presenter.o [1]
+Virtual function table for Screen2View
+                         0x801'1978    0x34  Data  Gb  Screen2View.o [1]
+Virtual function table for Screen2ViewBase
+                         0x801'19e0    0x34  Data  Gb  Screen2ViewBase.o [1]
+Virtual function table for touchgfx::Application
+                         0x801'1794    0x3c  Data  Gb  Application.o [7]
+Virtual function table for touchgfx::Box
+                         0x801'13cc    0x6c  Data  Gb  Box.o [7]
+Virtual function table for touchgfx::Button
+                         0x801'1358    0x74  Data  Gb  Button.o [7]
+Virtual function table for touchgfx::Callback<FrontendApplicationBase, void, void, void>
+                         0x801'1db0    0x18  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::Callback<Screen1ViewBase, touchgfx::AbstractButton const &, void, void>
+                         0x801'1df8    0x18  Data  Gb  Screen1ViewBase.o [1]
+Virtual function table for touchgfx::Callback<Screen2ViewBase, touchgfx::AbstractButton const &, void, void>
+                         0x801'1e28    0x18  Data  Gb  Screen2ViewBase.o [1]
+Virtual function table for touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)2>, touchgfx::Drawable &, void, void>
+                         0x801'1de0    0x18  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::Drawable &, void, void>
+                         0x801'1dc8    0x18  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::ClickEvent
+                         0x801'1f1c    0x14  Data  Gb  Gestures.o [7]
+Virtual function table for touchgfx::Container
+                         0x801'1058    0x90  Data  Gb  Container.o [7]
+Virtual function table for touchgfx::DragEvent
+                         0x801'1f30    0x14  Data  Gb  Gestures.o [7]
+Virtual function table for touchgfx::GestureEvent
+                         0x801'1f44    0x14  Data  Gb  Gestures.o [7]
+Virtual function table for touchgfx::InternalFlashFont
+                         0x801'164c    0x4c  Data  Gb  InternalFlashFont.o [7]
+Virtual function table for touchgfx::LCD16bpp
+                         0x801'1a14    0x34  Data  Gb  LCD16bpp.o [7]
+Virtual function table for touchgfx::LockFreeDMA_Queue
+                         0x801'1c18    0x24  Data  Gb  DMA.o [7]
+Virtual function table for touchgfx::MVPApplication
+                         0x801'171c    0x3c  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::MVPHeap
+                         0x801'1f58    0x10  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::NoTransition
+                         0x801'1ccc    0x20  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::Partition<touchgfx::meta::TypeList<Screen2Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>
+                         0x801'1840    0x34  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::Partition<touchgfx::meta::TypeList<Screen2View, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>
+                         0x801'1874    0x34  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>
+                         0x801'18a8    0x34  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::Presenter
+                         0x801'1e10    0x18  Data  Gb  Screen2Presenter.o [1]
+Virtual function table for touchgfx::STM32F7Instrumentation
+                         0x801'1ba0    0x28  Data  Gb  STM32F7Instrumentation.o [1]
+Virtual function table for touchgfx::STM32F7TouchController
+                         0x801'1e40    0x18  Data  Gb  STM32F7TouchController.o [1]
+Virtual function table for touchgfx::Screen
+                         0x801'1a48    0x34  Data  Gb  Screen.o [7]
+Virtual function table for touchgfx::SlideTransition<(touchgfx::Direction)2>
+                         0x801'1b00    0x28  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::SlideTransition<(touchgfx::Direction)3>
+                         0x801'1ad8    0x28  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::SnapshotWidget
+                         0x801'12e4    0x74  Data  Gb  SnapshotWidget.o [7]
+Virtual function table for touchgfx::Transition
+                         0x801'1cac    0x20  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::UIEventListener
+                         0x801'1bc8    0x28  Data  Gb  Application.o [7]
+Virtual function table for touchgfx::View<Screen1Presenter>
+                         0x801'1910    0x34  Data  Gb  Screen1ViewBase.o [1]
+Virtual function table for touchgfx::View<Screen2Presenter>
+                         0x801'19ac    0x34  Data  Gb  Screen2ViewBase.o [1]
+[local to Application_cpp]::touchgfx::rects
+                        0x2000'0d38     0x2  Data  Lc  Application.o [7]
+[local to BoardConfiguration_cpp]::touchgfx::texts
+                        0x2000'0000     0x1  Data  Lc  BoardConfiguration.o [1]
+[local to FrontendApplicationBase_cpp]::touchgfx::finalizeTransition([local to FrontendApplicationBase_cpp]::touchgfx::Screen *, [local to FrontendApplicationBase_cpp]::touchgfx::Presenter *, [local to FrontendApplicationBase_cpp]::touchgfx::Transition *)
+                         0x800'c1dd    0x34  Code  Lc  FrontendApplicationBase.o [1]
+[local to FrontendApplicationBase_cpp]::touchgfx::prepareTransition([local to FrontendApplicationBase_cpp]::touchgfx::Screen **, [local to FrontendApplicationBase_cpp]::touchgfx::Presenter **, [local to FrontendApplicationBase_cpp]::touchgfx::Transition **)
+                         0x800'c18b    0x52  Code  Lc  FrontendApplicationBase.o [1]
+[local to HW_Init_cpp]::HAL_FMC_MspInit()
+                         0x800'7eb7    0x86  Code  Lc  HW_Init.o [1]
+[local to OSWrappers_cpp]::IdleTaskHook(void *)
+                         0x800'b49b    0x18  Code  Lc  OSWrappers.o [1]
+[local to STM32F7DMA_cpp]::DMA2D_XferCpltCallback(__DMA2D_HandleTypeDef *)
+                         0x800'78d3     0xc  Code  Lc  STM32F7DMA.o [1]
+[local to STM32F7DMA_cpp]::DMA2D_XferErrorCallback(__DMA2D_HandleTypeDef *)
+                         0x800'78df     0x2  Code  Lc  STM32F7DMA.o [1]
+[local to STM32F7DMA_cpp]::HAL_DMA2D_SetMode(__DMA2D_HandleTypeDef *, unsigned int, unsigned int, unsigned int)
+                         0x800'78ad    0x26  Code  Lc  STM32F7DMA.o [1]
+[local to STM32F7HAL_cpp]::__NVIC_DisableIRQ(IRQn_Type)
+                         0x800'bbcf    0x1e  Code  Lc  STM32F7HAL.o [1]
+[local to STM32F7HAL_cpp]::__NVIC_EnableIRQ(IRQn_Type)
+                         0x800'bbb9    0x16  Code  Lc  STM32F7HAL.o [1]
+[local to STM32F7HAL_cpp]::__NVIC_SetPriority(IRQn_Type, unsigned int)
+                         0x800'bbed    0x1a  Code  Lc  STM32F7HAL.o [1]
+[local to STM32F7Instrumentation_cpp]::touchgfx::htim1
+                        0x2000'a240    0x40  Data  Lc  STM32F7Instrumentation.o [1]
+[local to main_cpp]::MX_GPIO_Init()
+                         0x800'2d1b   0x282  Code  Lc  main.o [1]
+[local to main_cpp]::MX_QUADSPI_Init()
+                         0x800'2b11    0x9e  Code  Lc  main.o [1]
+[local to main_cpp]::MX_RTC_Init()
+                         0x800'2bbf    0xc6  Code  Lc  main.o [1]
+[local to main_cpp]::MX_SAI2_Init()
+                         0x800'2c85    0x96  Code  Lc  main.o [1]
+__NVIC_SetPriority       0x800'6bd1    0x1a  Code  Lc  stm32f7xx_hal_cortex.o [1]
+__aeabi_assert           0x800'e44d    0x24  Code  Gb  ABIassert.o [6]
+__aeabi_ldiv0            0x800'b4d1          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr4          0x800'5145          Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy           0x800'24f9          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4          0x800'2519          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8          0x800'2519          Code  Gb  ABImemcpy.o [5]
+__aeabi_memset4          0x800'7859          Code  Gb  ABImemset48.o [5]
+__aeabi_memset8          0x800'7859          Code  Gb  ABImemset48.o [5]
+__aeabi_vec_ctor_nocookie_nodtor
+                         0x800'9b05    0x28  Code  Gb  cxxabi.o [3]
+__call_ctors             0x801'1d2d    0x18  Code  Gb  cppinit.o [2]
+__cmain                  0x801'1d45          Code  Gb  cmain.o [5]
+__data_GetMemChunk       0x800'1729    0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'a41c     0x4  Data  Lc  xgetmemchunk.o [2]
+__exit                   0x800'1755    0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word       0x800'7861          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word       0x800'7861          Code  Gb  ABImemset48.o [5]
+__iar_cstart_call_ctors
+                         0x801'1d0d    0x20  Code  Gb  cmain_call_ctors.o [5]
+__iar_data_init3         0x801'1bf1    0x28  Code  Gb  data_init.o [5]
+__iar_debug_exceptions   0x801'21e4     0x1  Data  Gb  unwind_debug.o [6]
+__iar_dlfree             0x800'11a7   0x4f6  Code  Gb  dlmalloc.o [2]
+__iar_dlmalloc           0x800'0ef1   0x2b6  Code  Gb  dlmalloc.o [2]
+__iar_init_vfp           0x801'1c61          Code  Gb  fpinit_M.o [4]
+__iar_lz77_init_single3
+                         0x800'16af    0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_program_start      0x801'1fdd          Code  Gb  cstartup_M.o [5]
+__iar_small_uldivmod     0x800'91a1          Code  Gb  I64DivMod_small.o [5]
+__iar_tls$$INIT_ARRAY$$Base
+                         0x801'1ff4           --   Gb  - Linker created -
+__iar_tls$$INIT_ARRAY$$Limit
+                         0x801'1ff4           --   Gb  - Linker created -
+__iar_zero_init3         0x800'3ea7    0x3a  Code  Gb  zero_init3.o [5]
+__low_level_init         0x801'1d63     0x4  Code  Gb  low_level_init.o [2]
+__sti__routine           0x800'5169     0x6  Code  Lc  BoardConfiguration.o [1]
+__sti__routine           0x800'a8d9     0xe  Code  Lc  Texts.o [1]
+__sti__routine           0x800'c0ed    0x18  Code  Lc  TypedTextDatabase.o [1]
+__vector_table           0x800'0000          Data  Gb  startup_stm32f746xx.o [1]
+_blue_buttons_round_edge_small
+                        0x9000'0000  0x9f60  Data  Gb  blue_buttons_round_edge_small.o [1]
+_blue_buttons_round_edge_small_pressed
+                        0x9000'9f60  0x9f60  Data  Gb  blue_buttons_round_edge_small_pressed.o [1]
+_call_main               0x801'1d51          Code  Gb  cmain.o [5]
+_exit                    0x801'1d6d          Code  Gb  cexit.o [5]
+_fonts                  0x2000'a3d8     0xc  Data  Lc  TypedTextDatabase.o [1]
+_gm_                    0x2000'9b6c   0x1d8  Data  Lc  dlmalloc.o [2]
+_main                    0x801'1d5f          Code  Gb  cmain.o [5]
+abort                    0x800'16a9     0x6  Code  Gb  abort.o [2]
+add_segment              0x800'0591   0x1f2  Code  Lc  dlmalloc.o [2]
+bitmap_database          0x801'1ab0    0x28  Data  Lc  BitmapDatabase.o [1]
+defaultTaskHandle       0x2000'9230     0x4  Data  Gb  main.o [1]
+disableChromArt         0x2000'a423     0x1  Data  Gb  STM32F7DMA.o [1]
+disk                    0x2000'a3cc     0xc  Data  Gb  ff_gen_drv.o [1]
+display                 0x2000'0abc     0x4  Data  Lc  BoardConfiguration.o [1]
+dma                     0x2000'0008   0xaa0  Data  Gb  BoardConfiguration.o [1]
+dummy                   0x2000'0af0     0x1  Data  Lc  OSWrappers.o [1]
+exit                     0x801'1d67     0x4  Code  Gb  exit.o [2]
+fontProvider            0x2000'0004     0x4  Data  Lc  BoardConfiguration.o [1]
+frame_buffer_sem        0x2000'0ae8     0x4  Data  Lc  OSWrappers.o [1]
+free                     0x801'006d     0x4  Code  Gb  heaptramp0.o [2]
+ft5336_I2C_InitializeIfRequired
+                         0x801'02fd    0x12  Code  Lc  ft5336.o [1]
+ft5336_Init              0x801'0075     0xe  Code  Gb  ft5336.o [1]
+ft5336_ReadID            0x801'0085    0x2a  Code  Gb  ft5336.o [1]
+ft5336_Reset             0x801'0083     0x2  Code  Gb  ft5336.o [1]
+ft5336_TS_ClearIT        0x801'0201     0x2  Code  Gb  ft5336.o [1]
+ft5336_TS_DetectTouch    0x801'00b1    0x3a  Code  Gb  ft5336.o [1]
+ft5336_TS_DisableIT      0x801'01f1     0x2  Code  Gb  ft5336.o [1]
+ft5336_TS_EnableIT       0x801'01ed     0x4  Code  Gb  ft5336.o [1]
+ft5336_TS_GetGestureID   0x801'0203    0x18  Code  Gb  ft5336.o [1]
+ft5336_TS_GetTouchInfo   0x801'022d    0xd0  Code  Gb  ft5336.o [1]
+ft5336_TS_GetXY          0x801'00ed    0xd8  Code  Gb  ft5336.o [1]
+ft5336_TS_GetXY::coord  0x2000'a3f8     0x2  Data  Lc  ft5336.o [1]
+ft5336_TS_ITStatus       0x801'01fd     0x4  Code  Gb  ft5336.o [1]
+ft5336_TS_Start          0x801'00af     0x2  Code  Gb  ft5336.o [1]
+ft5336_handle           0x2000'a3f4     0x4  Data  Lc  ft5336.o [1]
+ft5336_ts_drv           0x2000'0ac0    0x28  Data  Gb  ft5336.o [1]
+getFont_verdana_10_4bpp()
+                         0x800'd4cd    0x24  Code  Gb  FontGetters.o [1]
+getFont_verdana_10_4bpp()::static guard for verdana_10_4bpp
+                        0x2000'a2f4     0x1  Data  Lc  FontGetters.o [1]
+getFont_verdana_10_4bpp()::verdana_10_4bpp
+                        0x2000'a2f8    0x20  Data  Lc  FontGetters.o [1]
+getFont_verdana_20_4bpp()
+                         0x800'd4f1    0x22  Code  Gb  FontGetters.o [1]
+getFont_verdana_20_4bpp()::static guard for verdana_20_4bpp
+                        0x2000'a318     0x1  Data  Lc  FontGetters.o [1]
+getFont_verdana_20_4bpp()::verdana_20_4bpp
+                        0x2000'a31c    0x20  Data  Lc  FontGetters.o [1]
+getFont_verdana_40_4bpp()
+                         0x800'd531    0x24  Code  Gb  FontGetters.o [1]
+getFont_verdana_40_4bpp()::static guard for verdana_40_4bpp
+                        0x2000'a33c     0x1  Data  Lc  FontGetters.o [1]
+getFont_verdana_40_4bpp()::verdana_40_4bpp
+                        0x2000'a340    0x20  Data  Lc  FontGetters.o [1]
+glyphs_verdana_10_4bpp   0x801'1f88    0x10  Data  Gb  Table_verdana_10_4bpp.o [1]
+glyphs_verdana_20_4bpp   0x801'1f98    0x10  Data  Gb  Table_verdana_20_4bpp.o [1]
+glyphs_verdana_40_4bpp   0x801'1fa8    0x10  Data  Gb  Table_verdana_40_4bpp.o [1]
+hI2cAudioHandler        0x2000'a0d8    0x4c  Data  Lc  stm32746g_discovery.o [1]
+hUsbHostFS              0x2000'9234   0x3d8  Data  Gb  usb_host.o [1]
+hadc3                   0x2000'8d60    0x48  Data  Gb  main.o [1]
+hcrc                    0x2000'8da8    0x24  Data  Gb  main.o [1]
+hdcmi                   0x2000'8e78    0x50  Data  Gb  main.o [1]
+hdma2d                  0x2000'a200    0x40  Data  Gb  HW_Init.o [1]
+heth                    0x2000'8dcc    0x48  Data  Gb  main.o [1]
+hhcd_USB_OTG_FS         0x2000'960c   0x2c4  Data  Gb  usbh_conf.o [1]
+hi2c1                   0x2000'9014    0x4c  Data  Gb  main.o [1]
+hi2c3                   0x2000'9060    0x4c  Data  Gb  main.o [1]
+hltdc                   0x2000'9e4c    0xa8  Data  Gb  HW_Init.o [1]
+hqspi                   0x2000'a08c    0x4c  Data  Gb  main.o [1]
+hrtc                    0x2000'a384    0x20  Data  Gb  main.o [1]
+hsai_BlockA2            0x2000'9d44    0x84  Data  Gb  main.o [1]
+hsai_BlockB2            0x2000'9dc8    0x84  Data  Gb  main.o [1]
+hsd1                    0x2000'90ac    0x84  Data  Gb  main.o [1]
+hsdram1                 0x2000'a1bc    0x34  Data  Gb  HW_Init.o [1]
+hspdif                  0x2000'8ec8    0x4c  Data  Gb  main.o [1]
+hspi2                   0x2000'8e14    0x64  Data  Gb  main.o [1]
+htim12                  0x2000'91f0    0x40  Data  Gb  main.o [1]
+htim3                   0x2000'9130    0x40  Data  Gb  main.o [1]
+htim5                   0x2000'9170    0x40  Data  Gb  main.o [1]
+htim6                   0x2000'a280    0x40  Data  Gb  stm32f7xx_hal_timebase_tim.o [1]
+htim8                   0x2000'91b0    0x40  Data  Gb  main.o [1]
+huart1                  0x2000'8f14    0x80  Data  Gb  main.o [1]
+huart6                  0x2000'8f94    0x80  Data  Gb  main.o [1]
+init_mparams             0x800'01e3    0x32  Code  Lc  dlmalloc.o [2]
+init_top                 0x800'0215    0x36  Code  Lc  dlmalloc.o [2]
+kerning_verdana_10_4bpp
+                         0x801'21b0     0x4  Data  Gb  Kerning_verdana_10_4bpp.o [1]
+kerning_verdana_20_4bpp
+                         0x801'21b4     0x4  Data  Gb  Kerning_verdana_20_4bpp.o [1]
+kerning_verdana_40_4bpp
+                         0x801'21b8     0x4  Data  Gb  Kerning_verdana_40_4bpp.o [1]
+languagesArray           0x801'21bc     0x4  Data  Lc  Texts.o [1]
+lcd_int_active_line     0x2000'a400     0x2  Data  Lc  STM32F7HAL.o [1]
+lcd_int_porch_line      0x2000'a402     0x2  Data  Lc  STM32F7HAL.o [1]
+main                     0x800'268d   0x332  Code  Gb  main.o [1]
+makeFreeRtosPriority     0x800'520d     0xc  Code  Lc  cmsis_os.o [1]
+mcuInstr                0x2000'0aac    0x10  Data  Gb  BoardConfiguration.o [1]
+memcpy                   0x800'bba7     0xc  Code  Gb  memcpy.o [5]
+mparams                 0x2000'a3a4    0x18  Data  Lc  dlmalloc.o [2]
+osDelay                  0x800'5273     0xe  Code  Gb  cmsis_os.o [1]
+osKernelRunning          0x800'5223    0x12  Code  Gb  cmsis_os.o [1]
+osKernelStart            0x800'5219     0xa  Code  Gb  cmsis_os.o [1]
+osKernelSysTick          0x800'5235    0x10  Code  Gb  cmsis_os.o [1]
+osMessageCreate          0x800'5295     0xa  Code  Gb  cmsis_os.o [1]
+osMessageGet             0x800'52d5    0x68  Code  Gb  cmsis_os.o [1]
+osMessagePut             0x800'529f    0x36  Code  Gb  cmsis_os.o [1]
+osThreadCreate           0x800'5245    0x2e  Code  Gb  cmsis_os.o [1]
+prepend_alloc            0x800'024b   0x346  Code  Lc  dlmalloc.o [2]
+prvAddCurrentTaskToDelayedList
+                         0x800'8a15    0x5e  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                         0x800'82c9    0xb0  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue     0x800'90fd    0x26  Code  Lc  queue.o [1]
+prvCopyDataToQueue       0x800'9095    0x68  Code  Lc  queue.o [1]
+prvDeleteTCB             0x800'87bd    0x14  Code  Lc  tasks.o [1]
+prvIdleTask              0x800'876d    0x50  Code  Lc  tasks.o [1]
+prvInitialiseNewQueue    0x800'8b41    0x16  Code  Lc  queue.o [1]
+prvInitialiseNewTask     0x800'8241    0x88  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                         0x800'b113    0x46  Code  Lc  heap_4.o [1]
+prvIsQueueEmpty          0x800'9187    0x16  Code  Lc  queue.o [1]
+prvResetNextTaskUnblockTime
+                         0x800'87d1    0x1e  Code  Lc  tasks.o [1]
+prvTaskExitError         0x800'b21d    0x20  Code  Lc  port.o [1]
+prvUnlockQueue           0x800'9123    0x64  Code  Lc  queue.o [1]
+pvPortMalloc             0x800'afa1   0x108  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                         0x800'89cb    0x14  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x2000'9f1c     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x2000'9f20     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x2000'0d50     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x2000'9f24     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack    0x800'b1f5    0x26  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000'9f94    0x8c  Data  Lc  tasks.o [1]
+retSD                   0x2000'a3e4     0x1  Data  Gb  fatfs.o [1]
+scratch                 0x2000'0b08   0x200  Data  Lc  sd_diskio.o [1]
+segment_holding          0x800'01c9    0x1a  Code  Lc  dlmalloc.o [2]
+sys_alloc                0x800'0789   0x164  Code  Lc  dlmalloc.o [2]
+sys_trim                 0x800'08ed    0x64  Code  Lc  dlmalloc.o [2]
+tc                      0x2000'0aa8     0x4  Data  Gb  BoardConfiguration.o [1]
+tmalloc_large            0x800'095d   0x386  Code  Lc  dlmalloc.o [2]
+tmalloc_small            0x800'0ce3   0x200  Code  Lc  dlmalloc.o [2]
+touchgfx::AbstractButton::handleClickEvent(touchgfx::ClickEvent const &)
+                         0x800'259f    0x4e  Code  Gb  AbstractButton.o [7]
+touchgfx::AbstractPartition::AbstractPartition() [subobject]
+                         0x800'd5a1     0x2  Code  Gb  AbstractPartition.o [7]
+touchgfx::Application::Application()
+                         0x800'a993    0x82  Code  Gb  Application.o [7]
+touchgfx::Application::Application() [subobject]
+                         0x800'a991     0x2  Code  Gb  Application.o [7]
+touchgfx::Application::cacheDrawOperations(bool)
+                         0x800'ad13   0x250  Code  Gb  Application.o [7]
+touchgfx::Application::clearAllTimerWidgets()
+                         0x800'ad05     0xe  Code  Gb  Application.o [7]
+touchgfx::Application::currentScreen
+                        0x2000'0d40     0x4  Data  Gb  Application.o [7]
+touchgfx::Application::currentTransition
+                        0x2000'0d44     0x4  Data  Gb  Application.o [7]
+touchgfx::Application::draw()
+                         0x800'aa2f    0x26  Code  Gb  Application.o [7]
+touchgfx::Application::draw(touchgfx::Rect &)
+                         0x800'aa55    0x84  Code  Gb  Application.o [7]
+touchgfx::Application::getInstance()
+                         0x800'aa15     0x8  Code  Gb  Application.o [7]
+touchgfx::Application::handleClickEvent(touchgfx::ClickEvent const &)
+                         0x800'aa1d    0x10  Code  Gb  Application.o [7]
+touchgfx::Application::handleDragEvent(touchgfx::DragEvent const &)
+                         0x800'abdb    0x10  Code  Gb  Application.o [7]
+touchgfx::Application::handleGestureEvent(touchgfx::GestureEvent const &)
+                         0x800'abeb    0x10  Code  Gb  Application.o [7]
+touchgfx::Application::handleKeyEvent(unsigned char)
+                         0x800'af69     0xe  Code  Gb  Application.o [7]
+touchgfx::Application::handlePendingScreenTransition()
+                         0x800'aa2d     0x2  Code  Gb  Application.o [7]
+touchgfx::Application::handleTickEvent()
+                         0x800'abfb   0x10a  Code  Gb  Application.o [7]
+touchgfx::Application::instance
+                        0x2000'0d3c     0x4  Data  Gb  Application.o [7]
+touchgfx::Application::invalidateArea(touchgfx::Rect)
+                         0x800'aad9   0x102  Code  Gb  Application.o [7]
+touchgfx::Bitmap::allocationTable
+                        0x2000'a374     0x4  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::bitmaps
+                        0x2000'a368     0x4  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::cacheTable
+                        0x2000'a370     0x4  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::clearCache()
+                         0x800'21e5    0x7c  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::dynBitmaps
+                        0x2000'a36c     0x4  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::getAlphaData() const
+                         0x800'2427    0x4c  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::getData() const
+                         0x800'23e7    0x40  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::getFormat() const
+                         0x800'2473    0x70  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::getHeight() const
+                         0x800'22af    0x44  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::getSolidRect() const
+                         0x800'22f3    0x8c  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::getWidth() const
+                         0x800'2261    0x4e  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::hasTransparentPixels() const
+                         0x800'237f    0x68  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::memoryRemaining
+                        0x2000'a37c     0x4  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::nextAllocationIndex
+                        0x2000'a360     0x2  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::nextFreeData
+                        0x2000'a378     0x4  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::numberOfBitmaps
+                        0x2000'a362     0x2  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::numberOfDynamicBitmaps
+                        0x2000'a364     0x2  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::registerBitmapDatabase(touchgfx::Bitmap::BitmapData const *, unsigned short, unsigned short *, unsigned int, unsigned int)
+                         0x800'21a9    0x20  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::setCache(unsigned short *, unsigned int, unsigned int)
+                         0x800'21c9    0x1a  Code  Gb  Bitmap.o [7]
+touchgfx::Bitmap::totalMemory
+                        0x2000'a380     0x4  Data  Gb  Bitmap.o [7]
+touchgfx::Bitmap::uncachedCount
+                        0x2000'a366     0x2  Data  Gb  Bitmap.o [7]
+touchgfx::BlitOp::BlitOp()
+                         0x800'a2db     0x6  Code  Gb  STM32F7DMA.o [1]
+touchgfx::Box::Box()     0x800'e97d    0x24  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Box::draw(touchgfx::Rect const &) const
+                         0x801'14c5    0x30  Code  Gb  Box.o [7]
+touchgfx::Box::getSolidRect() const
+                         0x801'1499    0x2c  Code  Gb  Box.o [7]
+touchgfx::Button::Button()
+                         0x800'e9a1    0x30  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Button::draw(touchgfx::Rect const &) const
+                         0x800'eab1    0x90  Code  Gb  Button.o [7]
+touchgfx::Button::getSolidRect() const
+                         0x800'eb67    0x32  Code  Gb  Button.o [7]
+touchgfx::Button::setBitmaps(touchgfx::Bitmap const &, touchgfx::Bitmap const &)
+                         0x800'eb45    0x22  Code  Gb  Button.o [7]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::Callback()
+                         0x800'd5a9    0x20  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::Callback(FrontendApplicationBase *, void (FrontendApplicationBase::*)())
+                         0x800'd6a9    0x14  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::execute()
+                         0x801'1e59    0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::isValid() const
+                         0x800'7103    0x1a  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::operator =(touchgfx::Callback<FrontendApplicationBase, void, void, void>&&)
+                         0x800'd6bd    0x10  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<Screen1ViewBase, touchgfx::AbstractButton const &, void, void>::Callback(Screen1ViewBase *, void (Screen1ViewBase::*)(touchgfx::AbstractButton const &))
+                         0x800'e9d1    0x14  Code  Gb  Screen1ViewBase.o [1]
+touchgfx::Callback<Screen1ViewBase, touchgfx::AbstractButton const &, void, void>::execute(touchgfx::AbstractButton const &)
+                         0x800'57bf    0x1e  Code  Gb  Screen1ViewBase.o [1]
+touchgfx::Callback<Screen1ViewBase, touchgfx::AbstractButton const &, void, void>::isValid() const
+                         0x800'783f    0x1a  Code  Gb  Screen1ViewBase.o [1]
+touchgfx::Callback<Screen2ViewBase, touchgfx::AbstractButton const &, void, void>::Callback(Screen2ViewBase *, void (Screen2ViewBase::*)(touchgfx::AbstractButton const &))
+                         0x800'eba1    0x14  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Callback<Screen2ViewBase, touchgfx::AbstractButton const &, void, void>::execute(touchgfx::AbstractButton const &)
+                         0x800'686b    0x1e  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Callback<Screen2ViewBase, touchgfx::AbstractButton const &, void, void>::isValid() const
+                         0x800'7893    0x1a  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)2>, touchgfx::Drawable &, void, void>::Callback(touchgfx::SlideTransition<(touchgfx::Direction)2> *, void (touchgfx::SlideTransition<(touchgfx::Direction)2>::*)(touchgfx::Drawable &))
+                         0x800'e88d    0x14  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)2>, touchgfx::Drawable &, void, void>::execute(touchgfx::Drawable &)
+                         0x800'4737    0x1e  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::Drawable &, void, void>::Callback(touchgfx::SlideTransition<(touchgfx::Direction)3> *, void (touchgfx::SlideTransition<(touchgfx::Direction)3>::*)(touchgfx::Drawable &))
+                         0x800'e879    0x14  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::Drawable &, void, void>::execute(touchgfx::Drawable &)
+                         0x800'514b    0x1e  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Color::getColorFrom24BitRGB(unsigned char, unsigned char, unsigned char)
+                         0x800'e9e5    0xb0  Code  Gb  Color.o [7]
+touchgfx::ConstFont::ConstFont(touchgfx::GlyphNode const *, unsigned short, unsigned short, unsigned char, unsigned char, unsigned char, unsigned char, unsigned short, unsigned short) [subobject]
+                         0x800'e67b     0x4  Code  Gb  ConstFont.o [7]
+touchgfx::Container::Container()
+                         0x800'd899    0x34  Code  Gb  Screen.o [7]
+touchgfx::Container::add(touchgfx::Drawable &)
+                         0x800'd8f3    0x1a  Code  Gb  Container.o [7]
+touchgfx::Container::draw(touchgfx::Rect const &) const
+                         0x800'd943    0x80  Code  Gb  Container.o [7]
+touchgfx::Container::forEachChild(touchgfx::GenericCallback<touchgfx::Drawable &, void, void> *)
+                         0x800'da3b    0x1a  Code  Gb  Container.o [7]
+touchgfx::Container::getLastChild(short, short, touchgfx::Drawable **)
+                         0x800'd9c3    0x62  Code  Gb  Container.o [7]
+touchgfx::Container::getSolidRect() const
+                         0x800'da25    0x16  Code  Gb  Container.o [7]
+touchgfx::Container::remove(touchgfx::Drawable &)
+                         0x800'd90d    0x30  Code  Gb  Container.o [7]
+touchgfx::Container::setupDrawChain(touchgfx::Rect const &, touchgfx::Drawable **)
+                         0x800'da55    0x80  Code  Gb  Container.o [7]
+touchgfx::DMA_Interface::addToQueue(touchgfx::BlitOp const &)
+                         0x800'99c7    0x3e  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::disableAlpha()
+                         0x800'9b03     0x2  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::enableAlpha(unsigned char)
+                         0x800'9b01     0x2  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::execute()
+                         0x800'9a1f    0x90  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::executeCompleted()
+                         0x800'9aaf    0x3c  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::flush()
+                         0x800'b4d3     0x6  Code  Gb  STM32F7DMA.o [1]
+touchgfx::DMA_Interface::isDmaQueueEmpty()
+                         0x800'9aeb     0xc  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::seedExecution()
+                         0x800'99c1     0x6  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::start()
+                         0x800'999d    0x24  Code  Gb  DMA.o [7]
+touchgfx::DMA_Interface::waitForFrameBufferSemaphore()
+                         0x800'9a11     0xe  Code  Gb  DMA.o [7]
+touchgfx::DisplayTransformation::transformDisplayToFrameBuffer(touchgfx::Rect &)
+                         0x800'2613    0x2a  Code  Gb  DisplayTransformation.o [7]
+touchgfx::DisplayTransformation::transformDisplayToFrameBuffer(touchgfx::Rect &, touchgfx::Rect const &)
+                         0x800'263d    0x2c  Code  Gb  DisplayTransformation.o [7]
+touchgfx::DisplayTransformation::transformFrameBufferToDisplay(short &, short &)
+                         0x800'25ed    0x24  Code  Gb  DisplayTransformation.o [7]
+touchgfx::DragEvent::DragEvent(touchgfx::DragEvent::DragEventType, short, short, short, short)
+                         0x800'dcd9    0x20  Code  Gb  Screen.o [7]
+touchgfx::Drawable::getAbsoluteRect() const
+                         0x800'dc1f    0x2e  Code  Gb  Drawable.o [7]
+touchgfx::Drawable::getCachedAbsX()
+                         0x800'db13    0x28  Code  Gb  Screen.o [7]
+touchgfx::Drawable::getCachedAbsY()
+                         0x800'db3b    0x28  Code  Gb  Screen.o [7]
+touchgfx::Drawable::getCachedVisibleRect()
+                         0x800'dad5    0x3e  Code  Gb  Screen.o [7]
+touchgfx::Drawable::getVisibleRect(touchgfx::Rect &) const
+                         0x800'dbdf    0x40  Code  Gb  Drawable.o [7]
+touchgfx::Drawable::handleClickEvent(touchgfx::ClickEvent const &)
+                         0x801'21db     0x2  Code  Gb  Box.o [7]
+touchgfx::Drawable::handleDragEvent(touchgfx::DragEvent const &)
+                         0x801'21df     0x2  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::handleGestureEvent(touchgfx::GestureEvent const &)
+                         0x801'21dd     0x2  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::handleTickEvent()
+                         0x801'21e1     0x2  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::invalidate() const
+                         0x800'dbc1    0x1e  Code  Gb  Drawable.o [7]
+touchgfx::Drawable::invalidateRect(touchgfx::Rect &) const
+                         0x800'db63    0x5e  Code  Gb  Drawable.o [7]
+touchgfx::Drawable::moveRelative(short, short)
+                         0x800'dc69    0x6e  Code  Gb  Drawable.o [7]
+touchgfx::Drawable::setHeight(short)
+                         0x801'21ad     0x4  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::setPosition(short, short, short, short)
+                         0x800'd8cd    0x26  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Drawable::setWidth(short)
+                         0x801'21a9     0x4  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::setX(short)
+                         0x801'21a1     0x4  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::setXY(short, short)
+                         0x800'ea95    0x1a  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Drawable::setY(short)
+                         0x801'21a5     0x4  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::setupDrawChain(touchgfx::Rect const &, touchgfx::Drawable**)
+                         0x800'7bb7    0x12  Code  Gb  AbstractButton.o [7]
+touchgfx::Drawable::translateRectToAbsolute(touchgfx::Rect &) const
+                         0x800'dc4d    0x1c  Code  Gb  Drawable.o [7]
+touchgfx::EasingEquations::cubicEaseOut(unsigned short, short, short, unsigned short)
+                         0x801'0d01    0x6a  Code  Gb  EasingEquations.o [7]
+touchgfx::FontManager::provider
+                        0x2000'a40c     0x4  Data  Gb  FontManager.o [7]
+touchgfx::FontManager::setFontProvider(touchgfx::FontProvider *)
+                         0x800'a92d     0x6  Code  Gb  FontManager.o [7]
+touchgfx::GPIO::clear(touchgfx::GPIO::GPIO_ID)
+                         0x800'7fe5     0x2  Code  Gb  GPIO.o [1]
+touchgfx::GPIO::init()   0x800'7fe1     0x2  Code  Gb  GPIO.o [1]
+touchgfx::GPIO::set(touchgfx::GPIO::GPIO_ID)
+                         0x800'7fe3     0x2  Code  Gb  GPIO.o [1]
+touchgfx::GPIO::toggle(touchgfx::GPIO::GPIO_ID)
+                         0x800'7fe7     0x2  Code  Gb  GPIO.o [1]
+touchgfx::GestureEvent::GestureEvent(touchgfx::GestureEvent::GestureType, short, short, short)
+                         0x800'dcf9    0x1c  Code  Gb  Screen.o [7]
+touchgfx::Gestures::DragState::DragState()
+                         0x800'e969    0x14  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Gestures::Gestures()
+                         0x800'e669    0x12  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Gestures::registerClickEvent(touchgfx::ClickEvent::ClickEventType, unsigned short, unsigned short)
+                         0x800'bf17    0xaa  Code  Gb  Gestures.o [7]
+touchgfx::Gestures::registerDragEvent(unsigned short, unsigned short, unsigned short, unsigned short)
+                         0x800'be8b    0x86  Code  Gb  Gestures.o [7]
+touchgfx::Gestures::registerEventListener(touchgfx::UIEventListener &)
+                         0x800'be6d     0x4  Code  Gb  Gestures.o [7]
+touchgfx::Gestures::tick()
+                         0x800'be71    0x1a  Code  Gb  Gestures.o [7]
+touchgfx::HAL & touchgfx::getHAL<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, short, short)
+                         0x800'a2e1    0x2c  Code  Gb  BoardConfiguration.o [1]
+touchgfx::HAL & touchgfx::touchgfx_generic_init<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, short, short, unsigned short *, unsigned int, unsigned int)
+                         0x800'7fe9    0x78  Code  Gb  BoardConfiguration.o [1]
+touchgfx::HAL::DISPLAY_HEIGHT
+                        0x2000'a3c2     0x2  Data  Gb  HAL.o [7]
+touchgfx::HAL::DISPLAY_ROTATION
+                        0x2000'a3be     0x1  Data  Gb  HAL.o [7]
+touchgfx::HAL::DISPLAY_WIDTH
+                        0x2000'a3c0     0x2  Data  Gb  HAL.o [7]
+touchgfx::HAL::FRAME_BUFFER_HEIGHT
+                        0x2000'a3c6     0x2  Data  Gb  HAL.o [7]
+touchgfx::HAL::FRAME_BUFFER_WIDTH
+                        0x2000'a3c4     0x2  Data  Gb  HAL.o [7]
+touchgfx::HAL::HAL(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, unsigned short, unsigned short)
+                         0x800'e361    0x8c  Code  Gb  BoardConfiguration.o [1]
+touchgfx::HAL::HAL(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, unsigned short, unsigned short) [subobject]
+                         0x800'd4bd    0x10  Code  Gb  BoardConfiguration.o [1]
+touchgfx::HAL::USE_ANIMATION_STORAGE
+                        0x2000'a3bd     0x1  Data  Gb  HAL.o [7]
+touchgfx::HAL::USE_DOUBLE_BUFFERING
+                        0x2000'a3bc     0x1  Data  Gb  HAL.o [7]
+touchgfx::HAL::allowDMATransfers()
+                         0x800'a4cf     0xe  Code  Gb  HAL.o [7]
+touchgfx::HAL::backPorchExited()
+                         0x801'1eb7    0x16  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::beginFrame()
+                         0x800'a7ab    0x16  Code  Gb  HAL.o [7]
+touchgfx::HAL::blitCopy(unsigned short const *, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, bool)
+                         0x800'a595    0x56  Code  Gb  HAL.o [7]
+touchgfx::HAL::blitCopyARGB8888(unsigned short const *, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)
+                         0x800'a5eb    0x54  Code  Gb  HAL.o [7]
+touchgfx::HAL::blitFill(touchgfx::colortype, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)
+                         0x800'a64d    0x6c  Code  Gb  HAL.o [7]
+touchgfx::HAL::blockCopy(void *, void const *, unsigned int)
+                         0x800'a511    0x84  Code  Gb  HAL.o [7]
+touchgfx::HAL::copyFBRegionToMemory(touchgfx::Rect)
+                         0x800'a6c1    0x5e  Code  Gb  HAL.o [7]
+touchgfx::HAL::copyFBRegionToMemory(touchgfx::Rect, unsigned short *, unsigned int)
+                         0x800'a71f    0x60  Code  Gb  HAL.o [7]
+touchgfx::HAL::endFrame()
+                         0x800'a7d1    0x1a  Code  Gb  HAL.o [7]
+touchgfx::HAL::flushDMA()
+                         0x800'a4dd     0x8  Code  Gb  HAL.o [7]
+touchgfx::HAL::flushFrameBuffer(touchgfx::Rect const &)
+                         0x800'a4c3     0x2  Code  Gb  HAL.o [7]
+touchgfx::HAL::getBlitCaps()
+                         0x801'2005     0x8  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::getClientFrameBuffer()
+                         0x800'bfcd    0x24  Code  Gb  HAL.o [7]
+touchgfx::HAL::getDstAddress(unsigned short, unsigned short, unsigned short *) const
+                         0x800'a77f    0x2c  Code  Gb  HAL.o [7]
+touchgfx::HAL::initialize()
+                         0x800'a30d    0x24  Code  Gb  HAL.o [7]
+touchgfx::HAL::instance
+                        0x2000'a3c8     0x4  Data  Gb  HAL.o [7]
+touchgfx::HAL::isDrawing
+                        0x2000'a3fa     0x1  Data  Gb  HAL.o [7]
+touchgfx::HAL::lockFrameBuffer()
+                         0x800'a4e5    0x28  Code  Gb  HAL.o [7]
+touchgfx::HAL::noTouch()
+                         0x800'a879    0x24  Code  Gb  HAL.o [7]
+touchgfx::HAL::performDisplayOrientationChange()
+                         0x801'15a9    0x58  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::registerEventListener(touchgfx::UIEventListener &)
+                         0x800'a6b9     0x8  Code  Gb  HAL.o [7]
+touchgfx::HAL::setFrameBufferStartAddress(void *, unsigned short, bool, bool)
+                         0x801'0e0d    0x9c  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddress(void *, unsigned short, bool, bool)::string (instance 2)
+                         0x801'1cec    0x20  Data  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddress(void *, unsigned short, bool, bool)::string (instance 3)
+                         0x801'1268    0x7c  Data  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setMCUActive(bool)
+                         0x800'a89d    0x30  Code  Gb  HAL.o [7]
+touchgfx::HAL::swapFrameBuffers()
+                         0x800'a7eb    0x30  Code  Gb  HAL.o [7]
+touchgfx::HAL::taskDelay(unsigned short)
+                         0x801'1fd1     0xc  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::taskEntry()
+                         0x800'a331    0x20  Code  Gb  HAL.o [7]
+touchgfx::HAL::tick()    0x800'a351   0x172  Code  Gb  HAL.o [7]
+touchgfx::HAL::tick(){1}::touchTickCnt
+                        0x2000'a3fb     0x1  Data  Lc  HAL.o [7]
+touchgfx::HAL::touch(int, int)
+                         0x800'a81b    0x5e  Code  Gb  HAL.o [7]
+touchgfx::HAL::unlockFrameBuffer()
+                         0x800'a50d     0x4  Code  Gb  HAL.o [7]
+touchgfx::InternalFlashFont::InternalFlashFont(touchgfx::GlyphNode const *, unsigned short, unsigned short, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char const *, touchgfx::KerningNode const *, unsigned short, unsigned short)
+                         0x800'e3ed     0x2  Code  Gb  InternalFlashFont.o [7]
+touchgfx::LCD16bpp::bitDepth() const
+                         0x801'219d     0x4  Code  Gb  LCD16bpp.o [7]
+touchgfx::LCD16bpp::blitCopy(unsigned short const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char, bool)
+                         0x800'1d03   0x274  Code  Gb  LCD16bpp.o [7]
+touchgfx::LCD16bpp::blitCopyARGB8888(unsigned int const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                         0x800'19a3   0x180  Code  Gb  LCD16bpp.o [7]
+touchgfx::LCD16bpp::blitCopyAlphaPerPixel(unsigned short const *, unsigned char const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                         0x800'1b29   0x1da  Code  Gb  LCD16bpp.o [7]
+touchgfx::LCD16bpp::copyFrameBufferRegionToMemory(touchgfx::Rect const &, unsigned short)
+                         0x800'1f77    0xd2  Code  Gb  LCD16bpp.o [7]
+touchgfx::LCD16bpp::drawPartialBitmap(touchgfx::Bitmap const &, short, short, touchgfx::Rect const &, unsigned char, bool)
+                         0x800'1769   0x23a  Code  Gb  LCD16bpp.o [7]
+touchgfx::LCD16bpp::fillRect(touchgfx::Rect const &, touchgfx::colortype, unsigned char)
+                         0x800'204f   0x148  Code  Gb  LCD16bpp.o [7]
+touchgfx::LockFreeDMA_Queue::LockFreeDMA_Queue(touchgfx::BlitOp *, unsigned long)
+                         0x800'990d     0x2  Code  Gb  DMA.o [7]
+touchgfx::LockFreeDMA_Queue::first()
+                         0x800'998f     0xe  Code  Gb  DMA.o [7]
+touchgfx::LockFreeDMA_Queue::isEmpty()
+                         0x800'991f    0x10  Code  Gb  DMA.o [7]
+touchgfx::LockFreeDMA_Queue::isFull()
+                         0x800'992f    0x1a  Code  Gb  DMA.o [7]
+touchgfx::LockFreeDMA_Queue::pop()
+                         0x800'997f    0x10  Code  Gb  DMA.o [7]
+touchgfx::LockFreeDMA_Queue::pushCopyOf(touchgfx::BlitOp const &)
+                         0x800'9949    0x36  Code  Gb  DMA.o [7]
+touchgfx::MCUInstrumentation::getCCConsumed()
+                         0x801'2195     0x4  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::MCUInstrumentation::setCCConsumed(unsigned int)
+                         0x801'2199     0x4  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::MVPApplication::handlePendingScreenTransition()
+                         0x801'1c3d    0x24  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::MVPHeap::MVPHeap(touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, touchgfx::MVPApplication &)
+                         0x800'e6a9    0x18  Code  Gb  BoardConfiguration.o [1]
+touchgfx::MVPHeap::MVPHeap(touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, touchgfx::AbstractPartition &, touchgfx::MVPApplication &) [subobject]
+                         0x800'e441     0xc  Code  Gb  BoardConfiguration.o [1]
+touchgfx::NoTransition::NoTransition()
+                         0x800'e471    0x14  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::NoTransition::handleTickEvent()
+                         0x800'9e3f     0x6  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::NoTransition::~NoTransition()
+                         0x800'e35f     0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::OSWrappers::giveFrameBufferSemaphore()
+                         0x800'b40b     0xe  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::giveFrameBufferSemaphoreFromISR()
+                         0x800'b423    0x26  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::initialize()
+                         0x800'b3d9    0x2a  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::signalVSync()
+                         0x800'b449    0x30  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::takeFrameBufferSemaphore()
+                         0x800'b403     0x8  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::tryTakeFrameBufferSemaphore()
+                         0x800'b419     0x4  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::waitForVSync()
+                         0x800'b479    0x22  Code  Gb  OSWrappers.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<Screen2Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::Partition()
+                         0x800'c129    0x14  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<Screen2Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element(unsigned short)
+                         0x801'1ffd     0x8  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<Screen2Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element_size()
+                         0x801'2011     0x4  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<Screen2View, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::Partition()
+                         0x800'c13d    0x14  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<Screen2View, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element(unsigned short)
+                         0x800'92a7     0xa  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<Screen2View, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element_size()
+                         0x801'2015     0x4  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::Partition()
+                         0x800'c151    0x14  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element(unsigned short)
+                         0x800'93cb     0xa  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element_size()
+                         0x801'2019     0x4  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Presenter::activate()
+                         0x800'eb9f     0x2  Code  Gb  Screen2Presenter.o [1]
+touchgfx::Presenter::deactivate()
+                         0x800'fa37     0x2  Code  Gb  Screen2Presenter.o [1]
+touchgfx::Presenter::~Presenter()
+                         0x801'0d6b     0x2  Code  Gb  Screen2Presenter.o [1]
+touchgfx::Rect::Rect()   0x800'ebe5     0xc  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Rect::Rect(short, short, short, short)
+                         0x800'267d    0x10  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Rect::expandToFit(const touchgfx::Rect&)
+                         0x800'cb1f    0x8c  Code  Gb  Application.o [7]
+touchgfx::Rect::includes(const touchgfx::Rect&) const
+                         0x800'ca47    0x44  Code  Gb  Application.o [7]
+touchgfx::Rect::intersect(const touchgfx::Rect&) const
+                         0x800'cadb    0x44  Code  Gb  Screen.o [7]
+touchgfx::Rect::operator &=(const touchgfx::Rect&)
+                         0x800'c9c1    0x86  Code  Gb  Container.o [7]
+touchgfx::STM32F7Instrumentation::getCPUCycles()
+                         0x800'819b     0xe  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::STM32F7Instrumentation::init()
+                         0x800'8061   0x11c  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::STM32F7Instrumentation::setMCUActive(bool)
+                         0x800'81b5    0x22  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::STM32F7TouchController::init()
+                         0x801'1699    0x18  Code  Gb  STM32F7TouchController.o [1]
+touchgfx::STM32F7TouchController::sampleTouch(int &, int &)
+                         0x801'16b1    0x2e  Code  Gb  STM32F7TouchController.o [1]
+touchgfx::Screen::JSMOC(touchgfx::Rect const &, touchgfx::Drawable *)
+                         0x800'c429   0x214  Code  Gb  Screen.o [7]
+touchgfx::Screen::Screen()
+                         0x800'c35f    0x3e  Code  Gb  Screen.o [7]
+touchgfx::Screen::Screen() [subobject]
+                         0x800'c35d     0x2  Code  Gb  Screen.o [7]
+touchgfx::Screen::add(touchgfx::Drawable &)
+                         0x800'eb99     0x6  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Screen::afterTransition()
+                         0x801'1d77     0x2  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Screen::bindTransition(touchgfx::Transition &)
+                         0x800'c96d     0xc  Code  Gb  Screen.o [7]
+touchgfx::Screen::draw()
+                         0x800'c3df    0x26  Code  Gb  Screen.o [7]
+touchgfx::Screen::draw(touchgfx::Rect &)
+                         0x800'c39d    0x42  Code  Gb  Screen.o [7]
+touchgfx::Screen::handleClickEvent(touchgfx::ClickEvent const &)
+                         0x800'c643   0x1ce  Code  Gb  Screen.o [7]
+touchgfx::Screen::handleClickEvent(touchgfx::ClickEvent const &){2}{3}{4}::samplePoints
+                         0x800'c978    0x48  Data  Lc  Screen.o [7]
+touchgfx::Screen::handleDragEvent(touchgfx::DragEvent const &)
+                         0x800'c811    0xf6  Code  Gb  Screen.o [7]
+touchgfx::Screen::handleGestureEvent(touchgfx::GestureEvent const &)
+                         0x800'c921    0x4c  Code  Gb  Screen.o [7]
+touchgfx::Screen::handleKeyEvent(unsigned char)
+                         0x801'21c9     0x2  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Screen::handleTickEvent()
+                         0x801'21c7     0x2  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Screen::setupScreen()
+                         0x801'1d6b     0x2  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Screen::startSMOC(touchgfx::Rect &)
+                         0x800'c405    0x24  Code  Gb  Screen.o [7]
+touchgfx::Screen::tearDownScreen()
+                         0x801'21c5     0x2  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Screen::~Screen()
+                         0x801'21d9     0x2  Code  Gb  Screen.o [7]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::SlideTransition(unsigned char)
+                         0x800'e57d    0x9c  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::handleTickEvent()
+                         0x801'0c59    0xa0  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::init()
+                         0x801'17d1    0x38  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::initMoveDrawable(touchgfx::Drawable &)
+                         0x801'14f9    0x58  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::tearDown()
+                         0x801'1d79    0x1c  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::tickMoveDrawable(touchgfx::Drawable &)
+                         0x800'30b7    0x3a  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::~SlideTransition()
+                         0x801'1e71    0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::SlideTransition(unsigned char)
+                         0x800'e4e1    0x9c  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::handleTickEvent()
+                         0x801'0d6d    0xa0  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::init()
+                         0x801'1809    0x38  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::initMoveDrawable(touchgfx::Drawable &)
+                         0x801'1551    0x58  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::tearDown()
+                         0x801'1d95    0x1c  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::tickMoveDrawable(touchgfx::Drawable &)
+                         0x800'386f    0x3a  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::~SlideTransition()
+                         0x801'1e89    0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SnapshotWidget::SnapshotWidget()
+                         0x800'e799    0x32  Code  Gb  SnapshotWidget.o [7]
+touchgfx::SnapshotWidget::draw(touchgfx::Rect const &) const
+                         0x800'e7cd    0x48  Code  Gb  SnapshotWidget.o [7]
+touchgfx::SnapshotWidget::getSolidRect() const
+                         0x800'e815    0x3e  Code  Gb  SnapshotWidget.o [7]
+touchgfx::SnapshotWidget::makeSnapshot()
+                         0x800'e853     0xe  Code  Gb  SnapshotWidget.o [7]
+touchgfx::SnapshotWidget::~SnapshotWidget()
+                         0x800'e7cb     0x2  Code  Gb  SnapshotWidget.o [7]
+touchgfx::Texts::currentLanguage
+                        0x2000'a3ec     0x2  Data  Gb  Texts.o [1]
+touchgfx::Texts::currentLanguagePtr
+                        0x2000'a3f0     0x4  Data  Gb  Texts.o [1]
+touchgfx::Texts::setLanguage(unsigned short)
+                         0x800'a8e7    0x30  Code  Gb  Texts.o [1]
+touchgfx::TouchCalibration::matrix
+                        0x2000'a170    0x4c  Data  Gb  TouchCalibration.o [7]
+touchgfx::TouchCalibration::muldiv(int, int, int, int, int, int, int &)
+                         0x800'bff1    0x60  Code  Gb  TouchCalibration.o [7]
+touchgfx::TouchCalibration::translatePoint(touchgfx::Point &)
+                         0x800'c051    0x98  Code  Gb  TouchCalibration.o [7]
+touchgfx::Transition::Transition() [subobject]
+                         0x800'e6c1    0x10  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::handleTickEvent()
+                         0x800'c187     0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::init()
+                         0x800'dcd7     0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::setScreenContainer(touchgfx::Container &)
+                         0x801'201d     0x4  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::tearDown()
+                         0x800'cbd3     0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::~Transition()
+                         0x800'bd27     0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::TypedText::fonts
+                        0x2000'a418     0x4  Data  Gb  TypedText.o [7]
+touchgfx::TypedText::numberOfTypedTexts
+                        0x2000'a420     0x2  Data  Gb  TypedText.o [7]
+touchgfx::TypedText::texts
+                        0x2000'a414     0x4  Data  Gb  TypedText.o [7]
+touchgfx::TypedText::typedTexts
+                        0x2000'a410     0x4  Data  Gb  TypedText.o [7]
+touchgfx::UIEventListener::handleClickEvent(touchgfx::ClickEvent const &)
+                         0x801'21cf     0x2  Code  Gb  Application.o [7]
+touchgfx::UIEventListener::handleDragEvent(touchgfx::DragEvent const &)
+                         0x801'21d1     0x2  Code  Gb  Application.o [7]
+touchgfx::UIEventListener::handleGestureEvent(touchgfx::GestureEvent const &)
+                         0x801'21d3     0x2  Code  Gb  Application.o [7]
+touchgfx::UIEventListener::handleKeyEvent(unsigned char)
+                         0x801'21d5     0x2  Code  Gb  Application.o [7]
+touchgfx::UIEventListener::handleTickEvent()
+                         0x801'21d7     0x2  Code  Gb  Application.o [7]
+touchgfx::Vector<touchgfx::Rect, (unsigned short)8>::add(touchgfx::Rect)
+                         0x800'cbab    0x28  Code  Gb  Application.o [7]
+touchgfx::Vector<touchgfx::Rect, (unsigned short)8>::quickRemoveAt(unsigned short)
+                         0x800'ca8b    0x50  Code  Gb  Application.o [7]
+touchgfx::View<Screen1Presenter>::~View()
+                         0x800'e6a7     0x2  Code  Gb  Screen1ViewBase.o [1]
+touchgfx::View<Screen2Presenter>::~View()
+                         0x801'21cb     0x2  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Widget::Widget() [subobject]
+                         0x800'ebb5    0x30  Code  Gb  Screen2ViewBase.o [1]
+touchgfx::Widget::getLastChild(short, short, touchgfx::Drawable **)
+                         0x800'81d7    0x12  Code  Gb  AbstractButton.o [7]
+touchgfx::getHAL<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, int16_t, int16_t)::hal
+                        0x2000'a024    0x68  Data  Lc  BoardConfiguration.o [1]
+touchgfx::getHAL<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, int16_t, int16_t)::static guard for hal
+                        0x2000'a020     0x1  Data  Lc  BoardConfiguration.o [1]
+touchgfx::touchgfx_init()
+                         0x800'5199    0x60  Code  Gb  BoardConfiguration.o [1]
+tsDriver                0x2000'a2c8     0x4  Data  Lc  stm32746g_discovery_ts.o [1]
+tsOrientation           0x2000'a2c0     0x1  Data  Lc  stm32746g_discovery_ts.o [1]
+tsXBoundary             0x2000'a2c2     0x2  Data  Lc  stm32746g_discovery_ts.o [1]
+tsYBoundary             0x2000'a2c4     0x2  Data  Lc  stm32746g_discovery_ts.o [1]
+typedTextDatabaseArray   0x801'21c0     0x4  Data  Lc  TypedTextDatabase.o [1]
+typedText_database_DEFAULT
+                         0x801'21e2     0x2  Data  Lc  TypedTextDatabase.o [1]
+ucHeap                  0x2000'0d60  0x8000  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x2000'0af4     0x1  Data  Lc  port.o [1]
+ulMaxPRIGROUPValue      0x2000'0afc     0x4  Data  Lc  port.o [1]
+unicodes_verdana_10_4bpp
+                         0x801'21e5     0x1  Data  Gb  Font_verdana_10_4bpp.o [1]
+unicodes_verdana_20_4bpp
+                         0x801'21e6     0x1  Data  Gb  Font_verdana_20_4bpp.o [1]
+unicodes_verdana_40_4bpp
+                         0x801'21e7     0x1  Data  Gb  Font_verdana_40_4bpp.o [1]
+uwTick                  0x2000'0d0c     0x4  Data  Gb  stm32f7xx_hal.o [1]
+uwTickFreq              0x2000'0d08     0x1  Data  Gb  stm32f7xx_hal.o [1]
+uwTickPrio              0x2000'0d10     0x4  Data  Gb  stm32f7xx_hal.o [1]
+uxCriticalNesting       0x2000'0af8     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2000'9f40     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x2000'9f28     0x4  Data  Lc  tasks.o [1]
+uxListRemove             0x800'b1cd    0x28  Code  Gb  list.o [1]
+uxPendedTicks           0x2000'9f50     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x2000'9f64     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000'9f5c     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000'9f48     0x4  Data  Lc  tasks.o [1]
+vApplicationIdleHook     0x800'b4b7     0x8  Code  Gb  OSWrappers.o [1]
+vApplicationMallocFailedHook
+                         0x800'b4b5     0x2  Code  Gb  OSWrappers.o [1]
+vApplicationStackOverflowHook
+                         0x800'b4b3     0x2  Code  Gb  OSWrappers.o [1]
+vListInitialise          0x800'b161    0x1a  Code  Gb  list.o [1]
+vListInitialiseItem      0x800'b17b     0x6  Code  Gb  list.o [1]
+vListInsert              0x800'b19b    0x32  Code  Gb  list.o [1]
+vListInsertEnd           0x800'b181    0x1a  Code  Gb  list.o [1]
+vPortEnableVFP           0x800'cc6d          Code  Gb  portasm.o [1]
+vPortEnterCritical       0x800'b2d7    0x3a  Code  Gb  port.o [1]
+vPortExitCritical        0x800'b311    0x26  Code  Gb  port.o [1]
+vPortFree                0x800'b0bb    0x46  Code  Gb  heap_4.o [1]
+vPortStartFirstTask      0x800'cc4d          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                         0x800'b355    0x40  Code  Gb  port.o [1]
+vTaskDelay               0x800'8383    0x2a  Code  Gb  tasks.o [1]
+vTaskInternalSetTimeOutState
+                         0x800'86f1     0xe  Code  Gb  tasks.o [1]
+vTaskMissedYield         0x800'8761     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList    0x800'866d    0x24  Code  Gb  tasks.o [1]
+vTaskPriorityDisinheritAfterTimeout
+                         0x800'8917    0x8a  Code  Gb  tasks.o [1]
+vTaskSetApplicationTaskTag
+                         0x800'85a7    0x1c  Code  Gb  tasks.o [1]
+vTaskStartScheduler      0x800'83c1    0x58  Code  Gb  tasks.o [1]
+vTaskSuspendAll          0x800'8419     0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext       0x800'85d9    0x94  Code  Gb  tasks.o [1]
+vsync_q                 0x2000'0aec     0x4  Data  Lc  OSWrappers.o [1]
+xBlockAllocatedBit      0x2000'0d5c     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x2000'9f68    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000'9f7c    0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x2000'0d54     0x4  Data  Lc  heap_4.o [1]
+xIdleTaskHandle         0x2000'9f90     0x4  Data  Lc  tasks.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x2000'0d58     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x2000'9f60     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000'9f58     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2000'9ef4    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler      0x800'b23d    0x86  Code  Gb  port.o [1]
+xQueueGenericCreate      0x800'8b09    0x38  Code  Gb  queue.o [1]
+xQueueGenericReset       0x800'8a91    0x78  Code  Gb  queue.o [1]
+xQueueGenericSend        0x800'8b6b   0x11e  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                         0x800'8c9f    0x8a  Code  Gb  queue.o [1]
+xQueueGiveFromISR        0x800'8d29    0x70  Code  Gb  queue.o [1]
+xQueueReceive            0x800'8dc3    0xe6  Code  Gb  queue.o [1]
+xQueueReceiveFromISR     0x800'900d    0x76  Code  Gb  queue.o [1]
+xQueueSemaphoreTake      0x800'8ec5   0x11e  Code  Gb  queue.o [1]
+xSchedulerRunning       0x2000'9f4c     0x4  Data  Lc  tasks.o [1]
+xStart                  0x2000'0d48     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x2000'9f2c    0x14  Data  Lc  tasks.o [1]
+xTaskCallApplicationTaskHook
+                         0x800'85c3    0x16  Code  Gb  tasks.o [1]
+xTaskCheckForTimeOut     0x800'86ff    0x62  Code  Gb  tasks.o [1]
+xTaskCreate              0x800'81e9    0x58  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState   0x800'87ef    0x18  Code  Gb  tasks.o [1]
+xTaskGetTickCount        0x800'84cb     0x8  Code  Gb  tasks.o [1]
+xTaskGetTickCountFromISR
+                         0x800'84d3     0xe  Code  Gb  tasks.o [1]
+xTaskIncrementTick       0x800'84e1    0xbc  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                         0x800'8883    0x70  Code  Gb  tasks.o [1]
+xTaskPriorityInherit     0x800'8807    0x7c  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                         0x800'8691    0x56  Code  Gb  tasks.o [1]
+xTaskResumeAll           0x800'8425    0xa0  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x2000'9f08    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x2000'9f44     0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x2000'9f54     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Work\IAR_WORK\F746DISCO_TouchGFX_Start\EWARM\F746DISCO_TouchGFX_Start\Obj
+[2] = dl7M_tlf.a
+[3] = dlpp7M_tl_fc.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+[7] = touchgfx_core_release.a
+
+  69 542 bytes of readonly  code memory
+  86 418 bytes of readonly  data memory
+  50 213 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
