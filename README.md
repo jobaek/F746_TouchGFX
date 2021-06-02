@@ -16,5 +16,5 @@ F746DISCO_TouchGFX_STart : IAR Version
 
 TS_F746DISCO_TouchGFX_Start : TrueStudio Version
 
-Refer to the below link
+Refer to the link below
 https://www.youtube.com/watch?v=VOs2LYO7wSA
